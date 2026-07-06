@@ -1,0 +1,13 @@
+# Ignore all data and images
+data/
+
+# Ignore Model Weights
+checkpoints/
+*.pth
+*.pt
+
+# Ignore Python Cache and OS Junk
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
