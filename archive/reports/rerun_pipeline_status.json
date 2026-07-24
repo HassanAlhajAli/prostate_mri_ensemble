@@ -1,0 +1,63 @@
+{
+  "state": "completed",
+  "started_at": "2026-07-19T21:17:59.933267+00:00",
+  "clean_requested": true,
+  "phase3_command": [
+    "/home/hassan/miniconda3/envs/prostate_env/bin/python",
+    "src/03_ensemble_layer.py",
+    "--epochs",
+    "30",
+    "--batch-size",
+    "2",
+    "--num-workers",
+    "4",
+    "--lr",
+    "0.001",
+    "--weight-decay",
+    "0.0001",
+    "--val-ratio",
+    "0.15",
+    "--seed",
+    "42",
+    "--target-size",
+    "32",
+    "--bce-weight",
+    "1.0",
+    "--dice-weight",
+    "1.0",
+    "--aux-weight",
+    "0.2"
+  ],
+  "phase4_command": [
+    "/home/hassan/miniconda3/envs/prostate_env/bin/python",
+    "src/04_infer_ensemble.py",
+    "--checkpoint",
+    "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/checkpoints/phase3/best.pth",
+    "--target-size",
+    "32",
+    "--batch-size",
+    "1",
+    "--num-workers",
+    "0"
+  ],
+  "phase5_command": [
+    "/home/hassan/miniconda3/envs/prostate_env/bin/python",
+    "src/05_reverse_align_eval.py"
+  ],
+  "phase3": {
+    "state": "completed",
+    "completed_at": "2026-07-19T21:21:42.759486+00:00",
+    "log": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/reports/rerun_phase3.log"
+  },
+  "phase4": {
+    "state": "completed",
+    "completed_at": "2026-07-19T21:21:51.790368+00:00",
+    "log": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/reports/rerun_phase4.log"
+  },
+  "phase5": {
+    "state": "completed",
+    "completed_at": "2026-07-19T21:22:19.836781+00:00",
+    "log": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/reports/rerun_phase5.log"
+  },
+  "completed_at": "2026-07-19T21:22:19.836811+00:00"
+}

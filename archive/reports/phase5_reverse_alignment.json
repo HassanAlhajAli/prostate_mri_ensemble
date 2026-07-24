@@ -1,0 +1,4826 @@
+{
+  "source": {
+    "phase4_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test",
+    "features_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test",
+    "labels_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/nnUNet_data/nnUNet_raw/Dataset500_PROMIS/labelsTs"
+  },
+  "num_patients": 87,
+  "methods": [
+    "simple_avg",
+    "lomix",
+    "dst"
+  ],
+  "patients": [
+    {
+      "patient_id": "P-11957282",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-11957282_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-11957282_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13990102312521088
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-11957282_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-11957282_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13685945227087135
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-11957282_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-11957282_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13990102312521088
+        }
+      }
+    },
+    {
+      "patient_id": "P-14032542",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-14032542_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-14032542_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.083966347950504e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-14032542_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-14032542_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.2170961074424536e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-14032542_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-14032542_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.083966347950504e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-14654260",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-14654260_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-14654260_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18750567788548875
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-14654260_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-14654260_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1843064566208123
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-14654260_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-14654260_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18750567788548875
+        }
+      }
+    },
+    {
+      "patient_id": "P-14954522",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-14954522_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-14954522_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.0012465913906799144
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-14954522_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-14954522_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.0008802112906745534
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-14954522_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-14954522_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.0012465913906799144
+        }
+      }
+    },
+    {
+      "patient_id": "P-15327674",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-15327674_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-15327674_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.799247748801366e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-15327674_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-15327674_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.906707817169719e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-15327674_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-15327674_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.799247748801366e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-16053039",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-16053039_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-16053039_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.05276733276196379
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-16053039_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-16053039_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.05219219987725618
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-16053039_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-16053039_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.05276733276196379
+        }
+      }
+    },
+    {
+      "patient_id": "P-16710155",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-16710155_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-16710155_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.40992730008999934
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-16710155_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-16710155_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.41091623906944125
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-16710155_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-16710155_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.40992730008999934
+        }
+      }
+    },
+    {
+      "patient_id": "P-19377974",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-19377974_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-19377974_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.435953820662591e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-19377974_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-19377974_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.5325702980241424e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-19377974_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-19377974_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.435953820662591e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-20124941",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-20124941_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-20124941_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.051915681560606906
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-20124941_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-20124941_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.05021348031054215
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-20124941_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-20124941_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.051915681560606906
+        }
+      }
+    },
+    {
+      "patient_id": "P-20436077",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-20436077_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-20436077_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.499685028224971e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-20436077_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-20436077_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.596216779818167e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-20436077_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-20436077_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.499685028224971e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-21070957",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-21070957_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-21070957_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.32643618236741384
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-21070957_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-21070957_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.3307942686711589
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-21070957_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-21070957_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.32643618236741384
+        }
+      }
+    },
+    {
+      "patient_id": "P-21619992",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-21619992_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-21619992_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 2.5857165019758566e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-21619992_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-21619992_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 2.635462787195987e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-21619992_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-21619992_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 2.5857165019758566e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-21678209",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-21678209_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-21678209_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.004688908962860634
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-21678209_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-21678209_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.00407090784929977
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-21678209_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-21678209_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.004688908962860634
+        }
+      }
+    },
+    {
+      "patient_id": "P-21733525",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-21733525_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-21733525_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.36909740318318746
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-21733525_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-21733525_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.3639836918976899
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-21733525_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-21733525_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.36909740318318746
+        }
+      }
+    },
+    {
+      "patient_id": "P-22366139",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-22366139_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-22366139_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.15392423204603625
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-22366139_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-22366139_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1514617395261818
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-22366139_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-22366139_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.15392423204603625
+        }
+      }
+    },
+    {
+      "patient_id": "P-24261448",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-24261448_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-24261448_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.059507357144551104
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-24261448_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-24261448_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.05726881323656822
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-24261448_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-24261448_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.059507357144551104
+        }
+      }
+    },
+    {
+      "patient_id": "P-25638148",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-25638148_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-25638148_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.031068073115710762
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-25638148_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-25638148_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.028944664640277565
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-25638148_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-25638148_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.031068073115710762
+        }
+      }
+    },
+    {
+      "patient_id": "P-26897182",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-26897182_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-26897182_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.32016925248910993
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-26897182_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-26897182_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.32186139732183444
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-26897182_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-26897182_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.32016925248910993
+        }
+      }
+    },
+    {
+      "patient_id": "P-27245800",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-27245800_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-27245800_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.23849536674967617
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-27245800_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-27245800_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.23628507140253122
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-27245800_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-27245800_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.23849536674967617
+        }
+      }
+    },
+    {
+      "patient_id": "P-27948620",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-27948620_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-27948620_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18730828223455687
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-27948620_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-27948620_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18781409101041832
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-27948620_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-27948620_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18730828223455687
+        }
+      }
+    },
+    {
+      "patient_id": "P-31651292",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-31651292_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-31651292_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.05255260753696057
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-31651292_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-31651292_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.052934320874734604
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-31651292_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-31651292_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.05255260753696057
+        }
+      }
+    },
+    {
+      "patient_id": "P-31906541",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-31906541_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-31906541_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.4820940341319484e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-31906541_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-31906541_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.606172270630761e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-31906541_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-31906541_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.4820940341319484e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-32671513",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-32671513_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-32671513_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18641399419281593
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-32671513_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-32671513_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1856642734472894
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-32671513_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-32671513_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18641399419281593
+        }
+      }
+    },
+    {
+      "patient_id": "P-33013535",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-33013535_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-33013535_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18631492170861289
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-33013535_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-33013535_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18733117236671626
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-33013535_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-33013535_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.18631492170861289
+        }
+      }
+    },
+    {
+      "patient_id": "P-33491240",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-33491240_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-33491240_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.112856790157405e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-33491240_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-33491240_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.271678769574042e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-33491240_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-33491240_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.112856790157405e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-33501183",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-33501183_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-33501183_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1915433569206441
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-33501183_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-33501183_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.19398020122664503
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-33501183_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-33501183_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1915433569206441
+        }
+      }
+    },
+    {
+      "patient_id": "P-34226030",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-34226030_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-34226030_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.06797927464359312
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-34226030_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-34226030_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.06863516125442785
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-34226030_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-34226030_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.06797927464359312
+        }
+      }
+    },
+    {
+      "patient_id": "P-34389193",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-34389193_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-34389193_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13770962125968408
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-34389193_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-34389193_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13703394549467746
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-34389193_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-34389193_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13770962125968408
+        }
+      }
+    },
+    {
+      "patient_id": "P-35716717",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-35716717_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-35716717_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.037796284471580864
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-35716717_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-35716717_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.03793371844504798
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-35716717_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-35716717_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.037796284471580864
+        }
+      }
+    },
+    {
+      "patient_id": "P-36790509",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-36790509_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-36790509_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.20644787005903026
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-36790509_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-36790509_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.20321198845800542
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-36790509_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-36790509_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.20644787005903026
+        }
+      }
+    },
+    {
+      "patient_id": "P-38579295",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-38579295_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-38579295_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.15651713445962187
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-38579295_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-38579295_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1591314463296188
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-38579295_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-38579295_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.15651713445962187
+        }
+      }
+    },
+    {
+      "patient_id": "P-39135340",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-39135340_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-39135340_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.9460184672107165e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-39135340_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-39135340_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.060913705418846e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-39135340_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-39135340_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.9460184672107165e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-39807153",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-39807153_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-39807153_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.34550031468203274
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-39807153_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-39807153_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.34718213360893374
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-39807153_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-39807153_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.34550031468203274
+        }
+      }
+    },
+    {
+      "patient_id": "P-41983398",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-41983398_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-41983398_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.22644178072817647
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-41983398_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-41983398_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2280193936164694
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-41983398_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-41983398_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.22644178072817647
+        }
+      }
+    },
+    {
+      "patient_id": "P-42106564",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-42106564_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-42106564_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.00039415084149642697
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-42106564_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-42106564_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.00016184507383524803
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-42106564_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-42106564_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.00039415084149642697
+        }
+      }
+    },
+    {
+      "patient_id": "P-45643386",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-45643386_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-45643386_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2876988666052262
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-45643386_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-45643386_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2869493705736257
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-45643386_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-45643386_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2876988666052262
+        }
+      }
+    },
+    {
+      "patient_id": "P-45846284",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-45846284_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-45846284_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.37616566467932755
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-45846284_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-45846284_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.3793328973354226
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-45846284_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-45846284_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.37616566467932755
+        }
+      }
+    },
+    {
+      "patient_id": "P-46565895",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-46565895_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-46565895_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2007181076034667
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-46565895_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-46565895_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.20000720489931167
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-46565895_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-46565895_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2007181076034667
+        }
+      }
+    },
+    {
+      "patient_id": "P-47893170",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-47893170_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-47893170_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.050781763268598686
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-47893170_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-47893170_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.05069930073121641
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-47893170_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-47893170_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.050781763268598686
+        }
+      }
+    },
+    {
+      "patient_id": "P-48279393",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-48279393_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-48279393_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.04004919674686567
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-48279393_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-48279393_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.04031872513783591
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-48279393_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-48279393_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.04004919674686567
+        }
+      }
+    },
+    {
+      "patient_id": "P-48378131",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-48378131_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-48378131_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.898787476942618e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-48378131_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-48378131_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.004324670483949e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-48378131_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-48378131_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.898787476942618e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-48598870",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-48598870_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-48598870_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.961965134549843e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-48598870_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-48598870_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.0768070445563696e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-48598870_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-48598870_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.961965134549843e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-49560676",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-49560676_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-49560676_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.29420683335234277
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-49560676_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-49560676_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2986027944366321
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-49560676_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-49560676_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.29420683335234277
+        }
+      }
+    },
+    {
+      "patient_id": "P-50046359",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-50046359_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-50046359_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.10558351870515495
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-50046359_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-50046359_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.10746651699785602
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-50046359_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-50046359_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.10558351870515495
+        }
+      }
+    },
+    {
+      "patient_id": "P-50103926",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-50103926_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-50103926_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.053847379359015166
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-50103926_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-50103926_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.053004115265308474
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-50103926_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-50103926_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.053847379359015166
+        }
+      }
+    },
+    {
+      "patient_id": "P-53310774",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-53310774_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-53310774_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.224145290883459
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-53310774_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-53310774_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.22679182247924623
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-53310774_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-53310774_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.224145290883459
+        }
+      }
+    },
+    {
+      "patient_id": "P-54144749",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-54144749_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-54144749_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.002236580541693922
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-54144749_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-54144749_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.0019281999492089762
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-54144749_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-54144749_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.002236580541693922
+        }
+      }
+    },
+    {
+      "patient_id": "P-56941755",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-56941755_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-56941755_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1369394521327189
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-56941755_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-56941755_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1357140311794535
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-56941755_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-56941755_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1369394521327189
+        }
+      }
+    },
+    {
+      "patient_id": "P-57099055",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-57099055_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-57099055_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.08258710362168743
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-57099055_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-57099055_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.08236245958404682
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-57099055_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-57099055_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.08258710362168743
+        }
+      }
+    },
+    {
+      "patient_id": "P-57667967",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-57667967_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-57667967_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.046461621201610355
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-57667967_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-57667967_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.04580513147151719
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-57667967_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-57667967_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.046461621201610355
+        }
+      }
+    },
+    {
+      "patient_id": "P-63505213",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-63505213_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-63505213_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.21877613607405993
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-63505213_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-63505213_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2195790748470646
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-63505213_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-63505213_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.21877613607405993
+        }
+      }
+    },
+    {
+      "patient_id": "P-65653292",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-65653292_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-65653292_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.43983577855944467
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-65653292_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-65653292_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.44474584632271674
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-65653292_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-65653292_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.43983577855944467
+        }
+      }
+    },
+    {
+      "patient_id": "P-65885996",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-65885996_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-65885996_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.023311598397806967
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-65885996_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-65885996_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.022603570843383478
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-65885996_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-65885996_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.023311598397806967
+        }
+      }
+    },
+    {
+      "patient_id": "P-66467077",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-66467077_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-66467077_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13239018968516741
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-66467077_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-66467077_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13251028809330453
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-66467077_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-66467077_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13239018968516741
+        }
+      }
+    },
+    {
+      "patient_id": "P-67096033",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-67096033_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-67096033_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2648357037988954
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-67096033_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-67096033_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.26674592499869393
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-67096033_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-67096033_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2648357037988954
+        }
+      }
+    },
+    {
+      "patient_id": "P-67880023",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-67880023_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-67880023_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.366430879208522e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-67880023_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-67880023_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.5154881240623364e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-67880023_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-67880023_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.366430879208522e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-69231382",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-69231382_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-69231382_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.3312543310667336e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-69231382_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-69231382_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.463687898742861e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-69231382_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-69231382_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.3312543310667336e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-69562083",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-69562083_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-69562083_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.013271745526859939
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-69562083_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-69562083_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.012522897618234042
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-69562083_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-69562083_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.013271745526859939
+        }
+      }
+    },
+    {
+      "patient_id": "P-71026581",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-71026581_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-71026581_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.00043310498857325176
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-71026581_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-71026581_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.00043879771425416763
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-71026581_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-71026581_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.00043310498857325176
+        }
+      }
+    },
+    {
+      "patient_id": "P-71257089",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-71257089_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-71257089_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 2.96428042083995e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-71257089_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-71257089_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.013409672954244e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-71257089_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-71257089_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 2.96428042083995e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-73926971",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-73926971_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-73926971_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.4164171815738493
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-73926971_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-73926971_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.41277726184288077
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-73926971_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-73926971_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.4164171815738493
+        }
+      }
+    },
+    {
+      "patient_id": "P-74950246",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-74950246_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-74950246_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13899824774960748
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-74950246_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-74950246_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.1374895630592474
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-74950246_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-74950246_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.13899824774960748
+        }
+      }
+    },
+    {
+      "patient_id": "P-77161890",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-77161890_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-77161890_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.23078082152816862
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-77161890_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-77161890_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.23271178071027687
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-77161890_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-77161890_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.23078082152816862
+        }
+      }
+    },
+    {
+      "patient_id": "P-77507911",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-77507911_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-77507911_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.022981775634085422
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-77507911_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-77507911_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.021487603342543665
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-77507911_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-77507911_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.022981775634085422
+        }
+      }
+    },
+    {
+      "patient_id": "P-78505089",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-78505089_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-78505089_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.47254397255340086
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-78505089_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-78505089_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.47087651789753915
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-78505089_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-78505089_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.47254397255340086
+        }
+      }
+    },
+    {
+      "patient_id": "P-80042707",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-80042707_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-80042707_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.08806840889123038
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-80042707_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-80042707_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.08952514546435392
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-80042707_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-80042707_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.08806840889123038
+        }
+      }
+    },
+    {
+      "patient_id": "P-81521122",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-81521122_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-81521122_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2636621007388355
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-81521122_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-81521122_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2647436646249929
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-81521122_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-81521122_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2636621007388355
+        }
+      }
+    },
+    {
+      "patient_id": "P-81754495",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-81754495_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-81754495_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.01240396930968294
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-81754495_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-81754495_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.011205866641486184
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-81754495_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-81754495_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.01240396930968294
+        }
+      }
+    },
+    {
+      "patient_id": "P-83360761",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-83360761_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-83360761_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.29941832747530533
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-83360761_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-83360761_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.3031410026646942
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-83360761_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-83360761_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.29941832747530533
+        }
+      }
+    },
+    {
+      "patient_id": "P-83437386",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-83437386_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-83437386_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.479684630001358e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-83437386_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-83437386_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.612758890879987e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-83437386_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-83437386_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 4.479684630001358e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-83636139",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-83636139_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-83636139_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.24113521238988392
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-83636139_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-83636139_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2424382818438534
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-83636139_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-83636139_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.24113521238988392
+        }
+      }
+    },
+    {
+      "patient_id": "P-85326736",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-85326736_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-85326736_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.06266602659424977
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-85326736_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-85326736_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.060562127283911756
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-85326736_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-85326736_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.06266602659424977
+        }
+      }
+    },
+    {
+      "patient_id": "P-87460687",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-87460687_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-87460687_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.715814506401761e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-87460687_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-87460687_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.804595951765157e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-87460687_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-87460687_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.715814506401761e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-87523934",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-87523934_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-87523934_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2677400805228812
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-87523934_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-87523934_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2660133170949542
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-87523934_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-87523934_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2677400805228812
+        }
+      }
+    },
+    {
+      "patient_id": "P-88338115",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-88338115_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-88338115_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.14848182468571686
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-88338115_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-88338115_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.14951473290928524
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-88338115_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-88338115_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.14848182468571686
+        }
+      }
+    },
+    {
+      "patient_id": "P-88554873",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-88554873_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-88554873_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.37459604252355316
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-88554873_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-88554873_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.3708165296291692
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-88554873_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-88554873_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.37459604252355316
+        }
+      }
+    },
+    {
+      "patient_id": "P-90456256",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-90456256_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-90456256_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.06414103528388862
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-90456256_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-90456256_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.0632216853912259
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-90456256_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-90456256_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.06414103528388862
+        }
+      }
+    },
+    {
+      "patient_id": "P-90955293",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-90955293_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-90955293_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.09913851127005187
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-90955293_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-90955293_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.09649427285329766
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-90955293_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-90955293_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.09913851127005187
+        }
+      }
+    },
+    {
+      "patient_id": "P-91099488",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-91099488_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-91099488_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.10397751840668765
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-91099488_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-91099488_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.10455186756127749
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-91099488_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-91099488_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.10397751840668765
+        }
+      }
+    },
+    {
+      "patient_id": "P-91331790",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-91331790_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-91331790_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.09072595327563103
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-91331790_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-91331790_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.08910476098796556
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-91331790_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-91331790_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.09072595327563103
+        }
+      }
+    },
+    {
+      "patient_id": "P-92444392",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-92444392_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-92444392_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.027698237912232977
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-92444392_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-92444392_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.02461780578280638
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-92444392_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-92444392_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.027698237912232977
+        }
+      }
+    },
+    {
+      "patient_id": "P-95986532",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-95986532_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-95986532_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.3276045077953973
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-95986532_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-95986532_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.3242534997741707
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-95986532_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-95986532_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.3276045077953973
+        }
+      }
+    },
+    {
+      "patient_id": "P-96023772",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-96023772_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-96023772_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2558636715954806
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-96023772_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-96023772_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.25466034757489225
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-96023772_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-96023772_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.2558636715954806
+        }
+      }
+    },
+    {
+      "patient_id": "P-96279217",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-96279217_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-96279217_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.6280520986965113e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-96279217_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-96279217_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.713744568510649e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-96279217_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-96279217_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 3.6280520986965113e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-96937595",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-96937595_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-96937595_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 2.1795989537449956e-11
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-96937595_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-96937595_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 2.2169508058124692e-11
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-96937595_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-96937595_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 2.1795989537449956e-11
+        }
+      }
+    },
+    {
+      "patient_id": "P-97778768",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-97778768_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-97778768_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.34227748692365495
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-97778768_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-97778768_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.34072745703207036
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-97778768_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-97778768_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.34227748692365495
+        }
+      }
+    },
+    {
+      "patient_id": "P-99101207",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "methods": {
+        "simple_avg": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/simple_avg/P-99101207_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/simple_avg/P-99101207_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.4085839333671365
+        },
+        "lomix": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/lomix/P-99101207_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/lomix/P-99101207_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.39805714503547274
+        },
+        "dst": {
+          "phase4_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/03_phase4_logits/test/dst/P-99101207_logits.npy",
+          "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/04_phase5_native_predictions/dst/P-99101207_mask.nii.gz",
+          "logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "native_logits_shape": [
+            64,
+            160,
+            160
+          ],
+          "dice": 0.4085839333671365
+        }
+      }
+    }
+  ],
+  "summary": {
+    "num_patients": 87,
+    "methods": {
+      "dst": {
+        "mean_dice": 0.1388936834595242,
+        "median_dice": 0.09913851127005187,
+        "min_dice": 2.1795989537449956e-11,
+        "max_dice": 0.47254397255340086,
+        "num_patients": 87
+      },
+      "lomix": {
+        "mean_dice": 0.13857693670488677,
+        "median_dice": 0.09649427285329766,
+        "min_dice": 2.2169508058124692e-11,
+        "max_dice": 0.47087651789753915,
+        "num_patients": 87
+      },
+      "simple_avg": {
+        "mean_dice": 0.1388936834595242,
+        "median_dice": 0.09913851127005187,
+        "min_dice": 2.1795989537449956e-11,
+        "max_dice": 0.47254397255340086,
+        "num_patients": 87
+      }
+    }
+  }
+}

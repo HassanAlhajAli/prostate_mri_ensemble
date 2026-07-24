@@ -1,0 +1,16 @@
+{
+  "patient_id": "P-11957282",
+  "native_shape": [
+    64,
+    160,
+    160
+  ],
+  "label_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/nnUNet_data/nnUNet_raw/Dataset500_PROMIS/labelsTs/P-11957282.nii.gz",
+  "prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_medsam3d_only_native_predictions/medsam3d/P-11957282_mask.nii.gz",
+  "dice": 0.003927144762412679,
+  "outputs": {
+    "gt_binary_npy": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/reports/medsam3d_case_viz/P-11957282/gt_binary.npy",
+    "pred_binary_npy": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/reports/medsam3d_case_viz/P-11957282/pred_binary.npy",
+    "figure": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/reports/medsam3d_case_viz/P-11957282/medsam3d_case_slices.png"
+  }
+}

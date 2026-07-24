@@ -1,13 +1,24 @@
 # Ignore all data and images
 data/
 
-# Ignore Model Weights
+# Ignore Model Weights and Checkpoints
 checkpoints/
 *.pth
 *.pt
+
+# Ignore Logs and Text Outputs
+*.txt
+*.log
 
 # Ignore Python Cache and OS Junk
 __pycache__/
 *.pyc
 .DS_Store
 .ipynb_checkpoints/
+
+# Ignore Virtual Environments
+.venv/
+venv/
+env/
+
+archive/root_misc/Miniconda3-latest-Linux-x86_64.sh

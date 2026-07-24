@@ -1,0 +1,2458 @@
+{
+  "source": {
+    "features_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test",
+    "labels_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/nnUNet_data/nnUNet_raw/Dataset500_PROMIS/labelsTs",
+    "checkpoint": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/checkpoints/phase3/best.pth"
+  },
+  "num_patients": 87,
+  "model": "ProFound",
+  "mode": "standalone",
+  "target_size": 32,
+  "threshold": 0.5,
+  "patients": [
+    {
+      "patient_id": "P-11957282",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-11957282_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-11957282_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.17094728087405747
+    },
+    {
+      "patient_id": "P-14032542",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-14032542_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-14032542_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.981959147070763e-11
+    },
+    {
+      "patient_id": "P-14654260",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-14654260_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-14654260_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.20601926765064302
+    },
+    {
+      "patient_id": "P-14954522",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-14954522_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-14954522_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.002136435150228882
+    },
+    {
+      "patient_id": "P-15327674",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-15327674_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-15327674_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.8645907931231318e-11
+    },
+    {
+      "patient_id": "P-16053039",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-16053039_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-16053039_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.056588716136088874
+    },
+    {
+      "patient_id": "P-16710155",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-16710155_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-16710155_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.3910016732551591
+    },
+    {
+      "patient_id": "P-19377974",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-19377974_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-19377974_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.5757263547657187e-11
+    },
+    {
+      "patient_id": "P-20124941",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-20124941_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-20124941_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0615979598390943
+    },
+    {
+      "patient_id": "P-20436077",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-20436077_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-20436077_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.6429156644912938e-11
+    },
+    {
+      "patient_id": "P-21070957",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-21070957_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-21070957_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.28659813905376824
+    },
+    {
+      "patient_id": "P-21619992",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-21619992_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-21619992_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.10198848105894e-11
+    },
+    {
+      "patient_id": "P-21678209",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-21678209_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-21678209_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0072143857271666206
+    },
+    {
+      "patient_id": "P-21733525",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-21733525_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-21733525_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.4189032587097425
+    },
+    {
+      "patient_id": "P-22366139",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-22366139_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-22366139_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.17774196608262058
+    },
+    {
+      "patient_id": "P-24261448",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-24261448_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-24261448_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.09112438586315216
+    },
+    {
+      "patient_id": "P-25638148",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-25638148_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-25638148_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0424096159928206
+    },
+    {
+      "patient_id": "P-26897182",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-26897182_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-26897182_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.2941104921474661
+    },
+    {
+      "patient_id": "P-27245800",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-27245800_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-27245800_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.2555488092954269
+    },
+    {
+      "patient_id": "P-27948620",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-27948620_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-27948620_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.18301964416376068
+    },
+    {
+      "patient_id": "P-31651292",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-31651292_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-31651292_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.05050309063806572
+    },
+    {
+      "patient_id": "P-31906541",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-31906541_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-31906541_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 3.2827785436516714e-11
+    },
+    {
+      "patient_id": "P-32671513",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-32671513_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-32671513_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.1840426793317358
+    },
+    {
+      "patient_id": "P-33013535",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-33013535_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-33013535_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.17008600147212502
+    },
+    {
+      "patient_id": "P-33491240",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-33491240_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-33491240_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.97327029991457e-11
+    },
+    {
+      "patient_id": "P-33501183",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-33501183_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-33501183_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.15863459520181086
+    },
+    {
+      "patient_id": "P-34226030",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-34226030_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-34226030_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.06405496200995037
+    },
+    {
+      "patient_id": "P-34389193",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-34389193_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-34389193_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.14073852352061994
+    },
+    {
+      "patient_id": "P-35716717",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-35716717_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-35716717_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.03468102027540886
+    },
+    {
+      "patient_id": "P-36790509",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-36790509_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-36790509_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.24413626094738383
+    },
+    {
+      "patient_id": "P-38579295",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-38579295_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-38579295_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.12489748098638262
+    },
+    {
+      "patient_id": "P-39135340",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-39135340_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-39135340_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.7760042194493515e-11
+    },
+    {
+      "patient_id": "P-39807153",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-39807153_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-39807153_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.33543796825765826
+    },
+    {
+      "patient_id": "P-41983398",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-41983398_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-41983398_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.19895424158583402
+    },
+    {
+      "patient_id": "P-42106564",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-42106564_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-42106564_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0023591012686682844
+    },
+    {
+      "patient_id": "P-45643386",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-45643386_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-45643386_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.31763202577819266
+    },
+    {
+      "patient_id": "P-45846284",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-45846284_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-45846284_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.35423628859283496
+    },
+    {
+      "patient_id": "P-46565895",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-46565895_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-46565895_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.18990868715854484
+    },
+    {
+      "patient_id": "P-47893170",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-47893170_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-47893170_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.05423416036871452
+    },
+    {
+      "patient_id": "P-48279393",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-48279393_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-48279393_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.04199150040691252
+    },
+    {
+      "patient_id": "P-48378131",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-48378131_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-48378131_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.9026733620823002e-11
+    },
+    {
+      "patient_id": "P-48598870",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-48598870_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-48598870_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.9175784098346436e-11
+    },
+    {
+      "patient_id": "P-49560676",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-49560676_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-49560676_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.2417097697576152
+    },
+    {
+      "patient_id": "P-50046359",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-50046359_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-50046359_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.09270588237962629
+    },
+    {
+      "patient_id": "P-50103926",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-50103926_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-50103926_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.051495062331815944
+    },
+    {
+      "patient_id": "P-53310774",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-53310774_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-53310774_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.18490905401105542
+    },
+    {
+      "patient_id": "P-54144749",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-54144749_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-54144749_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.004641206733657927
+    },
+    {
+      "patient_id": "P-56941755",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-56941755_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-56941755_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.14254600895288724
+    },
+    {
+      "patient_id": "P-57099055",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-57099055_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-57099055_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.08368559353696774
+    },
+    {
+      "patient_id": "P-57667967",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-57667967_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-57667967_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.047947713918135404
+    },
+    {
+      "patient_id": "P-63505213",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-63505213_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-63505213_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.2075646763670024
+    },
+    {
+      "patient_id": "P-65653292",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-65653292_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-65653292_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.3725957567466879
+    },
+    {
+      "patient_id": "P-65885996",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-65885996_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-65885996_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.04423062002937765
+    },
+    {
+      "patient_id": "P-66467077",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-66467077_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-66467077_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.13084797109591656
+    },
+    {
+      "patient_id": "P-67096033",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-67096033_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-67096033_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.25027074925543297
+    },
+    {
+      "patient_id": "P-67880023",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-67880023_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-67880023_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 3.1231456321832924e-11
+    },
+    {
+      "patient_id": "P-69231382",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-69231382_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-69231382_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 3.290231303152363e-11
+    },
+    {
+      "patient_id": "P-69562083",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-69562083_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-69562083_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.01882636742831752
+    },
+    {
+      "patient_id": "P-71026581",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-71026581_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-71026581_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.002029038551698421
+    },
+    {
+      "patient_id": "P-71257089",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-71257089_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-71257089_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0002846435077497831
+    },
+    {
+      "patient_id": "P-73926971",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-73926971_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-73926971_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.4557753463149576
+    },
+    {
+      "patient_id": "P-74950246",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-74950246_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-74950246_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.14436810874137726
+    },
+    {
+      "patient_id": "P-77161890",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-77161890_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-77161890_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.208224219708679
+    },
+    {
+      "patient_id": "P-77507911",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-77507911_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-77507911_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.03115987108999718
+    },
+    {
+      "patient_id": "P-78505089",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-78505089_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-78505089_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.49238391236895124
+    },
+    {
+      "patient_id": "P-80042707",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-80042707_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-80042707_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.06811427349947484
+    },
+    {
+      "patient_id": "P-81521122",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-81521122_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-81521122_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.24846929589302025
+    },
+    {
+      "patient_id": "P-81754495",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-81754495_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-81754495_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.020400943425106104
+    },
+    {
+      "patient_id": "P-83360761",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-83360761_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-83360761_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.2730986880687924
+    },
+    {
+      "patient_id": "P-83437386",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-83437386_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-83437386_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 3.2778287661178106e-11
+    },
+    {
+      "patient_id": "P-83636139",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-83636139_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-83636139_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.21969638394753224
+    },
+    {
+      "patient_id": "P-85326736",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-85326736_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-85326736_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.08813888553871217
+    },
+    {
+      "patient_id": "P-87460687",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-87460687_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-87460687_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.00040304010247573007
+    },
+    {
+      "patient_id": "P-87523934",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-87523934_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-87523934_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.29655744505681236
+    },
+    {
+      "patient_id": "P-88338115",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-88338115_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-88338115_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.13263636365607645
+    },
+    {
+      "patient_id": "P-88554873",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-88554873_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-88554873_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.4051934887692268
+    },
+    {
+      "patient_id": "P-90456256",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-90456256_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-90456256_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.07268708148424058
+    },
+    {
+      "patient_id": "P-90955293",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-90955293_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-90955293_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.11122786741156866
+    },
+    {
+      "patient_id": "P-91099488",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-91099488_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-91099488_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.10234762244396896
+    },
+    {
+      "patient_id": "P-91331790",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-91331790_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-91331790_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.10589758111993575
+    },
+    {
+      "patient_id": "P-92444392",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-92444392_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-92444392_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.05434519754975388
+    },
+    {
+      "patient_id": "P-95986532",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-95986532_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-95986532_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.3451158971418552
+    },
+    {
+      "patient_id": "P-96023772",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-96023772_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-96023772_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.24807881775251037
+    },
+    {
+      "patient_id": "P-96279217",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-96279217_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-96279217_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.8091465811896973e-11
+    },
+    {
+      "patient_id": "P-96937595",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-96937595_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-96937595_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 1.8463129130784254e-11
+    },
+    {
+      "patient_id": "P-97778768",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-97778768_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-97778768_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.34560409925590607
+    },
+    {
+      "patient_id": "P-99101207",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "profound_feature_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-99101207_profound.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_profound_only_native_predictions/profound/P-99101207_mask.nii.gz",
+      "profound_feature_shape": [
+        768,
+        4,
+        10,
+        10
+      ],
+      "canonical_logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.5108673434667264
+    }
+  ],
+  "summary": {
+    "num_patients": 87,
+    "mean_dice": 0.13986864950088856,
+    "median_dice": 0.10234762244396896,
+    "min_dice": 1.8463129130784254e-11,
+    "max_dice": 0.5108673434667264,
+    "std_dice": 0.1359357752684509
+  }
+}

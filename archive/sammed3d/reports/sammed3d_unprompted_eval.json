@@ -1,0 +1,1934 @@
+{
+  "source": {
+    "features_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test",
+    "labels_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/nnUNet_data/nnUNet_raw/Dataset500_PROMIS/labelsTs"
+  },
+  "num_patients": 87,
+  "model": "SAM-Med3D",
+  "mode": "unprompted",
+  "threshold": 0.5,
+  "patients": [
+    {
+      "patient_id": "P-11957282",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-11957282_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-11957282_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.003927144762412679
+    },
+    {
+      "patient_id": "P-14032542",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-14032542_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-14032542_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.001263823380327386
+    },
+    {
+      "patient_id": "P-14654260",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-14654260_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-14654260_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0063006301375412065
+    },
+    {
+      "patient_id": "P-14954522",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-14954522_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-14954522_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.9691211392609496e-10
+    },
+    {
+      "patient_id": "P-15327674",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-15327674_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-15327674_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 9.25925925068587e-10
+    },
+    {
+      "patient_id": "P-16053039",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-16053039_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-16053039_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.018635349022747223
+    },
+    {
+      "patient_id": "P-16710155",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-16710155_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-16710155_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0034478355891043393
+    },
+    {
+      "patient_id": "P-19377974",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-19377974_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-19377974_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 1.3875398915793616e-10
+    },
+    {
+      "patient_id": "P-20124941",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-20124941_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-20124941_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0030857396951541236
+    },
+    {
+      "patient_id": "P-20436077",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-20436077_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-20436077_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.032220609719561595
+    },
+    {
+      "patient_id": "P-21070957",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-21070957_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-21070957_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.006643138986231768
+    },
+    {
+      "patient_id": "P-21619992",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-21619992_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-21619992_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0008851236643557486
+    },
+    {
+      "patient_id": "P-21678209",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-21678209_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-21678209_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.00045882105977086
+    },
+    {
+      "patient_id": "P-21733525",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-21733525_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-21733525_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0017011926245910725
+    },
+    {
+      "patient_id": "P-22366139",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-22366139_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-22366139_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0024261330038622187
+    },
+    {
+      "patient_id": "P-24261448",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-24261448_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-24261448_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.02219491038815085
+    },
+    {
+      "patient_id": "P-25638148",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-25638148_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-25638148_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.010111223535030626
+    },
+    {
+      "patient_id": "P-26897182",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-26897182_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-26897182_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0009202808005383318
+    },
+    {
+      "patient_id": "P-27245800",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-27245800_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-27245800_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.006368743103282094
+    },
+    {
+      "patient_id": "P-27948620",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-27948620_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-27948620_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 1.2165450120174518e-10
+    },
+    {
+      "patient_id": "P-31651292",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-31651292_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-31651292_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 4.533091566394791e-10
+    },
+    {
+      "patient_id": "P-31906541",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-31906541_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-31906541_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.7777777700617284e-09
+    },
+    {
+      "patient_id": "P-32671513",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-32671513_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-32671513_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.003551575123258834
+    },
+    {
+      "patient_id": "P-33013535",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-33013535_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-33013535_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.00860289074180955
+    },
+    {
+      "patient_id": "P-33491240",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-33491240_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-33491240_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0020800837222672472
+    },
+    {
+      "patient_id": "P-33501183",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-33501183_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-33501183_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0005260391897616942
+    },
+    {
+      "patient_id": "P-34226030",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-34226030_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-34226030_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 1.6108247420085653e-10
+    },
+    {
+      "patient_id": "P-34389193",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-34389193_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-34389193_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.001998667665778518
+    },
+    {
+      "patient_id": "P-35716717",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-35716717_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-35716717_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 3.5298270372291467e-10
+    },
+    {
+      "patient_id": "P-36790509",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-36790509_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-36790509_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.017381274381167343
+    },
+    {
+      "patient_id": "P-38579295",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-38579295_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-38579295_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.037124536268267117
+    },
+    {
+      "patient_id": "P-39135340",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-39135340_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-39135340_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0021896214140158477
+    },
+    {
+      "patient_id": "P-39807153",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-39807153_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-39807153_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.00433990113667738
+    },
+    {
+      "patient_id": "P-41983398",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-41983398_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-41983398_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 1.728608469882695e-10
+    },
+    {
+      "patient_id": "P-42106564",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-42106564_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-42106564_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.1353833008465974e-10
+    },
+    {
+      "patient_id": "P-45643386",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-45643386_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-45643386_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0013004430039703968
+    },
+    {
+      "patient_id": "P-45846284",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-45846284_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-45846284_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0038846126894551028
+    },
+    {
+      "patient_id": "P-46565895",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-46565895_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-46565895_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.007415647199218455
+    },
+    {
+      "patient_id": "P-47893170",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-47893170_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-47893170_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.004980699912217569
+    },
+    {
+      "patient_id": "P-48279393",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-48279393_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-48279393_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 4.842615009761446e-10
+    },
+    {
+      "patient_id": "P-48378131",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-48378131_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-48378131_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 1.5415446274793362e-10
+    },
+    {
+      "patient_id": "P-48598870",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-48598870_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-48598870_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 5.482456137345144e-10
+    },
+    {
+      "patient_id": "P-49560676",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-49560676_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-49560676_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.002181818363239669
+    },
+    {
+      "patient_id": "P-50046359",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-50046359_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-50046359_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 3.5625222644950046e-10
+    },
+    {
+      "patient_id": "P-50103926",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-50103926_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-50103926_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.00964391728128935
+    },
+    {
+      "patient_id": "P-53310774",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-53310774_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-53310774_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.1829294909009103e-10
+    },
+    {
+      "patient_id": "P-54144749",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-54144749_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-54144749_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0012700429167979022
+    },
+    {
+      "patient_id": "P-56941755",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-56941755_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-56941755_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0026507622593355267
+    },
+    {
+      "patient_id": "P-57099055",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-57099055_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-57099055_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0005846246709778941
+    },
+    {
+      "patient_id": "P-57667967",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-57667967_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-57667967_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 2.4582104222079126e-10
+    },
+    {
+      "patient_id": "P-63505213",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-63505213_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-63505213_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0061957870188668225
+    },
+    {
+      "patient_id": "P-65653292",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-65653292_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-65653292_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0006934212532986546
+    },
+    {
+      "patient_id": "P-65885996",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-65885996_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-65885996_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 1.9588638585780872e-10
+    },
+    {
+      "patient_id": "P-66467077",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-66467077_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-66467077_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.002204767947884144
+    },
+    {
+      "patient_id": "P-67096033",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-67096033_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-67096033_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0015640274680778078
+    },
+    {
+      "patient_id": "P-67880023",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-67880023_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-67880023_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 1.6778523461781e-09
+    },
+    {
+      "patient_id": "P-69231382",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-69231382_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-69231382_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 7.936507930209119e-10
+    },
+    {
+      "patient_id": "P-69562083",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-69562083_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-69562083_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.003496503630514187
+    },
+    {
+      "patient_id": "P-71026581",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-71026581_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-71026581_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0002240980428690484
+    },
+    {
+      "patient_id": "P-71257089",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-71257089_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-71257089_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.005124263472104854
+    },
+    {
+      "patient_id": "P-73926971",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-73926971_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-73926971_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0024110372370223228
+    },
+    {
+      "patient_id": "P-74950246",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-74950246_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-74950246_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.004304093613833726
+    },
+    {
+      "patient_id": "P-77161890",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-77161890_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-77161890_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0004735970873225672
+    },
+    {
+      "patient_id": "P-77507911",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-77507911_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-77507911_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 3.0432136326709634e-10
+    },
+    {
+      "patient_id": "P-78505089",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-78505089_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-78505089_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0030589174423773465
+    },
+    {
+      "patient_id": "P-80042707",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-80042707_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-80042707_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 3.2404406988851455e-10
+    },
+    {
+      "patient_id": "P-81521122",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-81521122_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-81521122_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0005132153793077396
+    },
+    {
+      "patient_id": "P-81754495",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-81754495_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-81754495_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0034590110676378377
+    },
+    {
+      "patient_id": "P-83360761",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-83360761_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-83360761_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0052843833951766945
+    },
+    {
+      "patient_id": "P-83437386",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-83437386_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-83437386_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 1.0266940441204374e-09
+    },
+    {
+      "patient_id": "P-83636139",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-83636139_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-83636139_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.008639764091387654
+    },
+    {
+      "patient_id": "P-85326736",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-85326736_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-85326736_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.004996055876282401
+    },
+    {
+      "patient_id": "P-87460687",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-87460687_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-87460687_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0023342672730312162
+    },
+    {
+      "patient_id": "P-87523934",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-87523934_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-87523934_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.003867723892677058
+    },
+    {
+      "patient_id": "P-88338115",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-88338115_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-88338115_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.005212292430751189
+    },
+    {
+      "patient_id": "P-88554873",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-88554873_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-88554873_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0021370525826803965
+    },
+    {
+      "patient_id": "P-90456256",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-90456256_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-90456256_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0010317256254170927
+    },
+    {
+      "patient_id": "P-90955293",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-90955293_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-90955293_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.008071025287040349
+    },
+    {
+      "patient_id": "P-91099488",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-91099488_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-91099488_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0024090582986246545
+    },
+    {
+      "patient_id": "P-91331790",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-91331790_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-91331790_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0019449688803875652
+    },
+    {
+      "patient_id": "P-92444392",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-92444392_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-92444392_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.012681159494815733
+    },
+    {
+      "patient_id": "P-95986532",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-95986532_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-95986532_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.006617342998638971
+    },
+    {
+      "patient_id": "P-96023772",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-96023772_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-96023772_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.0021123380698883976
+    },
+    {
+      "patient_id": "P-96279217",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-96279217_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-96279217_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.006735266790133719
+    },
+    {
+      "patient_id": "P-96937595",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-96937595_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-96937595_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 4.348393268498135e-11
+    },
+    {
+      "patient_id": "P-97778768",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-97778768_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-97778768_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.006381262963907953
+    },
+    {
+      "patient_id": "P-99101207",
+      "native_shape": [
+        64,
+        160,
+        160
+      ],
+      "sam_logits_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/02_frozen_features/test/P-99101207_sam_logits.npy",
+      "native_prediction_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/data/05_sammed3d_unprompted_native_predictions/sammed3d/P-99101207_mask.nii.gz",
+      "logits_shape": [
+        32,
+        32,
+        32
+      ],
+      "native_logits_shape": [
+        64,
+        160,
+        160
+      ],
+      "threshold": 0.5,
+      "dice": 0.007705458847941132
+    }
+  ],
+  "summary": {
+    "num_patients": 87,
+    "mean_dice": 0.004071054676549717,
+    "median_dice": 0.002181818363239669,
+    "min_dice": 4.348393268498135e-11,
+    "max_dice": 0.037124536268267117,
+    "std_dice": 0.006301983660464474
+  }
+}

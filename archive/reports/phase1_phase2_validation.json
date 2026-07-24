@@ -1,0 +1,382 @@
+{
+  "phase1": {
+    "status": "pass",
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "train_images": 348,
+      "train_labels": 348,
+      "test_images": 87,
+      "test_labels": 87,
+      "train_test_overlap_count": 0,
+      "sampled_labels": 10,
+      "binary_violations_in_samples": 0,
+      "geometry_mismatches_in_samples": 0,
+      "label_samples": [
+        {
+          "patient_id": "P-10104751",
+          "split": "train",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        },
+        {
+          "patient_id": "P-10650700",
+          "split": "train",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        },
+        {
+          "patient_id": "P-11358796",
+          "split": "train",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        },
+        {
+          "patient_id": "P-11994173",
+          "split": "train",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        },
+        {
+          "patient_id": "P-12099863",
+          "split": "train",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        },
+        {
+          "patient_id": "P-11957282",
+          "split": "test",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        },
+        {
+          "patient_id": "P-14032542",
+          "split": "test",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        },
+        {
+          "patient_id": "P-14654260",
+          "split": "test",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        },
+        {
+          "patient_id": "P-14954522",
+          "split": "test",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        },
+        {
+          "patient_id": "P-15327674",
+          "split": "test",
+          "unique_values": [
+            0.0,
+            1.0
+          ],
+          "binary": true,
+          "geometry_matches_image": true
+        }
+      ]
+    }
+  },
+  "phase2_train": {
+    "status": "pass",
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "split": "train",
+      "expected_patients": 348,
+      "missing_profound": 0,
+      "missing_sam_embedding": 0,
+      "missing_sam_logits": 0,
+      "missing_meta": 0,
+      "manifest_exists": true,
+      "manifest_records": 348,
+      "manifest_duplicate_ids": 0,
+      "sampled_patients": 5,
+      "tensor_nan_inf_violations": 0,
+      "metadata_shape_violations": 0,
+      "samples": [
+        {
+          "patient_id": "P-10104751",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        },
+        {
+          "patient_id": "P-10650700",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        },
+        {
+          "patient_id": "P-11358796",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        },
+        {
+          "patient_id": "P-11994173",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        },
+        {
+          "patient_id": "P-12099863",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        }
+      ]
+    }
+  },
+  "phase2_test": {
+    "status": "pass",
+    "errors": [],
+    "warnings": [],
+    "stats": {
+      "split": "test",
+      "expected_patients": 87,
+      "missing_profound": 0,
+      "missing_sam_embedding": 0,
+      "missing_sam_logits": 0,
+      "missing_meta": 0,
+      "manifest_exists": true,
+      "manifest_records": 87,
+      "manifest_duplicate_ids": 0,
+      "sampled_patients": 5,
+      "tensor_nan_inf_violations": 0,
+      "metadata_shape_violations": 0,
+      "samples": [
+        {
+          "patient_id": "P-11957282",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        },
+        {
+          "patient_id": "P-14032542",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        },
+        {
+          "patient_id": "P-14654260",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        },
+        {
+          "patient_id": "P-14954522",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        },
+        {
+          "patient_id": "P-15327674",
+          "profound_shape": [
+            768,
+            4,
+            10,
+            10
+          ],
+          "sam_embedding_shape": [
+            384,
+            8,
+            8,
+            8
+          ],
+          "sam_logits_shape": [
+            32,
+            32,
+            32
+          ],
+          "finite": true,
+          "meta_shapes_match_arrays": true
+        }
+      ]
+    }
+  },
+  "overall_status": "pass"
+}
