@@ -1,0 +1,7 @@
+{
+    "model": "AdvancedProFoundDecoder3D (Champion)",
+    "test_cases": 87,
+    "mean_test_dice": 0.1566957320705406,
+    "peak_val_dice": 0.19974372232499427,
+    "threshold_used": 0.65
+}
