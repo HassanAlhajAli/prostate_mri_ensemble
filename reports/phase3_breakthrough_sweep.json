@@ -1,0 +1,109 @@
+{
+  "best_val_dice": 0.18626592551091953,
+  "best_config": {
+    "lr": 0.0001,
+    "decoder_channels": 64,
+    "dropout": 0.2,
+    "epochs": 50,
+    "threshold": 0.35,
+    "seed": 42
+  },
+  "trials": [
+    {
+      "trial_id": 1,
+      "val_dice": 0.18626592551091953,
+      "config": {
+        "lr": 0.0001,
+        "decoder_channels": 64,
+        "dropout": 0.2,
+        "epochs": 50,
+        "threshold": 0.35,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 2,
+      "val_dice": 0.18304878334913935,
+      "config": {
+        "lr": 0.0001,
+        "decoder_channels": 64,
+        "dropout": 0.3,
+        "epochs": 50,
+        "threshold": 0.35,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 3,
+      "val_dice": 0.17586209435415054,
+      "config": {
+        "lr": 0.0002,
+        "decoder_channels": 64,
+        "dropout": 0.2,
+        "epochs": 50,
+        "threshold": 0.35,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 4,
+      "val_dice": 0.17480374519842112,
+      "config": {
+        "lr": 0.0002,
+        "decoder_channels": 64,
+        "dropout": 0.3,
+        "epochs": 50,
+        "threshold": 0.35,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 5,
+      "val_dice": 0.18412839231480446,
+      "config": {
+        "lr": 0.0001,
+        "decoder_channels": 64,
+        "dropout": 0.2,
+        "epochs": 50,
+        "threshold": 0.4,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 6,
+      "val_dice": 0.18159440424559373,
+      "config": {
+        "lr": 0.0001,
+        "decoder_channels": 64,
+        "dropout": 0.3,
+        "epochs": 50,
+        "threshold": 0.4,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 7,
+      "val_dice": 0.17709134248351413,
+      "config": {
+        "lr": 0.0002,
+        "decoder_channels": 64,
+        "dropout": 0.2,
+        "epochs": 50,
+        "threshold": 0.4,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 8,
+      "val_dice": 0.1768911369881867,
+      "config": {
+        "lr": 0.0002,
+        "decoder_channels": 64,
+        "dropout": 0.3,
+        "epochs": 50,
+        "threshold": 0.4,
+        "seed": 42
+      }
+    }
+  ]
+}

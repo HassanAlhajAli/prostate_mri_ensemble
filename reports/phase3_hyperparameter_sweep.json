@@ -1,0 +1,177 @@
+{
+  "best_val_dice": 0.1896374457874377,
+  "best_config": {
+    "lr": 0.0003,
+    "decoder_channels": 128,
+    "dropout": 0.3,
+    "pos_weight": 2.0,
+    "dice_weight": 1.5,
+    "bce_weight": 0.5,
+    "focal_weight": 0.5,
+    "epochs": 30,
+    "threshold": 0.4,
+    "seed": 42
+  },
+  "trials": [
+    {
+      "trial_id": 1,
+      "val_dice": 0.17353013562304634,
+      "config": {
+        "lr": 0.0001,
+        "decoder_channels": 64,
+        "dropout": 0.3,
+        "pos_weight": 4.0,
+        "dice_weight": 1.0,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.3,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 2,
+      "val_dice": 0.08297897692370627,
+      "config": {
+        "lr": 0.0001,
+        "decoder_channels": 32,
+        "dropout": 0.2,
+        "pos_weight": 3.0,
+        "dice_weight": 1.0,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 3,
+      "val_dice": 0.1784457269091425,
+      "config": {
+        "lr": 0.0005,
+        "decoder_channels": 32,
+        "dropout": 0.1,
+        "pos_weight": 3.0,
+        "dice_weight": 1.0,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.4,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 4,
+      "val_dice": 0.17897496904811955,
+      "config": {
+        "lr": 0.0005,
+        "decoder_channels": 64,
+        "dropout": 0.1,
+        "pos_weight": 4.0,
+        "dice_weight": 2.0,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.3,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 5,
+      "val_dice": 0.1792638777821724,
+      "config": {
+        "lr": 0.0005,
+        "decoder_channels": 64,
+        "dropout": 0.2,
+        "pos_weight": 2.0,
+        "dice_weight": 1.0,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.3,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 6,
+      "val_dice": 0.18847012479049485,
+      "config": {
+        "lr": 0.0005,
+        "decoder_channels": 128,
+        "dropout": 0.2,
+        "pos_weight": 4.0,
+        "dice_weight": 1.0,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 7,
+      "val_dice": 0.1896374457874377,
+      "config": {
+        "lr": 0.0003,
+        "decoder_channels": 128,
+        "dropout": 0.3,
+        "pos_weight": 2.0,
+        "dice_weight": 1.5,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.4,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 8,
+      "val_dice": 0.156101986829786,
+      "config": {
+        "lr": 0.0003,
+        "decoder_channels": 32,
+        "dropout": 0.3,
+        "pos_weight": 2.0,
+        "dice_weight": 2.0,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 9,
+      "val_dice": 0.10556144761087904,
+      "config": {
+        "lr": 0.0001,
+        "decoder_channels": 32,
+        "dropout": 0.1,
+        "pos_weight": 3.0,
+        "dice_weight": 1.0,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.5,
+        "seed": 42
+      }
+    },
+    {
+      "trial_id": 10,
+      "val_dice": 0.18655133216774888,
+      "config": {
+        "lr": 0.0003,
+        "decoder_channels": 32,
+        "dropout": 0.3,
+        "pos_weight": 2.0,
+        "dice_weight": 1.5,
+        "bce_weight": 0.5,
+        "focal_weight": 0.5,
+        "epochs": 30,
+        "threshold": 0.3,
+        "seed": 42
+      }
+    }
+  ]
+}
