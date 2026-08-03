@@ -1,33 +1,44 @@
-# Ignore all data and images
+# ==============================================================================
+# 1. DATA, CACHES & PREDICTIONS
+# ==============================================================================
+# Ignore raw data, medical image volumes, and heavy array caches
 data/
+reports/ensemble_cache/
+reports/ensemble_predictions/
+*.npy
+*.npz
+*.nii.gz
+*.pkl
 
-# Ignore Model Weights and Checkpoints
+# ==============================================================================
+# 2. MODEL WEIGHTS & CHECKPOINTS
+# ==============================================================================
+# Ignore saved PyTorch model states
 checkpoints/
 *.pth
 *.pt
 
-# Ignore Logs and Text Outputs
+# ==============================================================================
+# 3. LOGS & MISCELLANEOUS OUTPUTS
+# ==============================================================================
+# Ignore text logs and one-off installation scripts
 *.txt
 *.log
+archive/root_misc/Miniconda3-latest-Linux-x86_64.sh
 
-# Ignore Python Cache and OS Junk
-__pycache__/
-*.pyc
-.DS_Store
-.ipynb_checkpoints/
-
-# Ignore Virtual Environments
+# ==============================================================================
+# 4. PYTHON ENVIRONMENTS & VIRTUAL ENVS
+# ==============================================================================
+# Ignore local environment dependencies
 .venv/
 venv/
 env/
 
-archive/root_misc/Miniconda3-latest-Linux-x86_64.sh
-reports/ensemble_cache/
-reports/ensemble_predictions/
-
-# Ignore large model predictions, caches, and arrays
-*.npy
-*.npz
-*.nii.gz
-*.pt
-*.pkl
+# ==============================================================================
+# 5. SYSTEM JUNK & CACHES
+# ==============================================================================
+# Ignore compiled Python files, Jupyter checkpoints, and OS-generated files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
