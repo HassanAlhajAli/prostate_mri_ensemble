@@ -1,0 +1,35 @@
+{
+  "run_name": "trial_001",
+  "seed": 42,
+  "device": "cuda",
+  "git_commit": "4e11f6ba87f6291edc0603df83467bcf745f8dac",
+  "paths": {
+    "workspace_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble",
+    "dataset_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI",
+    "cache_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/ensemble_cache_mpmri",
+    "run_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/trials/trial_001",
+    "split_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/shared_train_val_split.json"
+  },
+  "args": {
+    "epochs": 1,
+    "batch_size": 1,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "val_ratio": 0.15,
+    "pos_weight": 10.0,
+    "bce_weight": 1.0,
+    "dice_weight": 1.0,
+    "focal_weight": 0.5,
+    "max_cases": 10,
+    "seed": 42,
+    "patience": 1,
+    "base_channels": 16,
+    "run_name": "trial_001",
+    "output_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/trials/trial_001",
+    "split_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/shared_train_val_split.json"
+  },
+  "num_available_cases": 348,
+  "num_selected_cases": 10,
+  "num_train_cases": 9,
+  "num_val_cases": 1
+}

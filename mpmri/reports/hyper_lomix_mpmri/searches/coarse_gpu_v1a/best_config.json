@@ -1,0 +1,22 @@
+{
+  "trial_index": 1,
+  "lr": 0.0001,
+  "weight_decay": 0.0001,
+  "pos_weight": 5.0,
+  "bce_weight": 1.0,
+  "dice_weight": 1.0,
+  "focal_weight": 0.5,
+  "base_channels": 16,
+  "patience": 3,
+  "run_name": "trial_001",
+  "trial_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_001",
+  "best_val_dice": 0.7649764255466892,
+  "best_val_loss": 0.6997647666587279,
+  "best_threshold": 0.85,
+  "best_epoch": 8,
+  "epochs_run": 8,
+  "num_train_cases": 296,
+  "num_val_cases": 52,
+  "nnunet_val_dice": 0.7730250467765282,
+  "profound_val_dice": 0.14090377930619374
+}

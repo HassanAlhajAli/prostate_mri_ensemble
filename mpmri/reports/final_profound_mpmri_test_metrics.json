@@ -1,0 +1,7 @@
+{
+    "model": "AdvancedProFoundDecoder3D (mpMRI Champion)",
+    "test_cases": 87,
+    "mean_test_dice": 0.1541163452665289,
+    "peak_val_dice": 0.1996200759106702,
+    "threshold_used": 0.65
+}

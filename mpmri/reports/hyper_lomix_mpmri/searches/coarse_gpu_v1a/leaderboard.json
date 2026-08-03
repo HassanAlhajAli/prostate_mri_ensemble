@@ -1,0 +1,158 @@
+{
+  "search_name": "coarse_gpu_v1a",
+  "search_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a",
+  "split_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/shared_train_val_split.json",
+  "num_trials": 4,
+  "num_successful_trials": 4,
+  "num_failed_trials": 0,
+  "ranking_rule": "best_val_dice desc, best_val_loss asc",
+  "args": {
+    "search_name": "coarse_gpu_v1a",
+    "epochs": 8,
+    "batch_size": 1,
+    "val_ratio": 0.15,
+    "max_cases": null,
+    "seed": 42,
+    "patience": [
+      3
+    ],
+    "base_channels": [
+      16
+    ],
+    "lrs": [
+      0.0001,
+      0.0003
+    ],
+    "weight_decays": [
+      0.0001
+    ],
+    "pos_weights": [
+      5.0,
+      10.0
+    ],
+    "bce_weights": [
+      1.0
+    ],
+    "dice_weights": [
+      1.0
+    ],
+    "focal_weights": [
+      0.5
+    ],
+    "run_root": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches",
+    "resume": true
+  },
+  "leaderboard": [
+    {
+      "trial_index": 1,
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "pos_weight": 5.0,
+      "bce_weight": 1.0,
+      "dice_weight": 1.0,
+      "focal_weight": 0.5,
+      "base_channels": 16,
+      "patience": 3,
+      "run_name": "trial_001",
+      "trial_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_001",
+      "best_val_dice": 0.7649764255466892,
+      "best_val_loss": 0.6997647666587279,
+      "best_threshold": 0.85,
+      "best_epoch": 8,
+      "epochs_run": 8,
+      "num_train_cases": 296,
+      "num_val_cases": 52,
+      "nnunet_val_dice": 0.7730250467765282,
+      "profound_val_dice": 0.14090377930619374
+    },
+    {
+      "trial_index": 2,
+      "lr": 0.0001,
+      "weight_decay": 0.0001,
+      "pos_weight": 10.0,
+      "bce_weight": 1.0,
+      "dice_weight": 1.0,
+      "focal_weight": 0.5,
+      "base_channels": 16,
+      "patience": 3,
+      "run_name": "trial_002",
+      "trial_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_002",
+      "best_val_dice": 0.7628437400117767,
+      "best_val_loss": 0.7302242185060794,
+      "best_threshold": 0.9,
+      "best_epoch": 8,
+      "epochs_run": 8,
+      "num_train_cases": 296,
+      "num_val_cases": 52,
+      "nnunet_val_dice": 0.7687397158571946,
+      "profound_val_dice": 0.10018724744907556
+    },
+    {
+      "trial_index": 3,
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "pos_weight": 5.0,
+      "bce_weight": 1.0,
+      "dice_weight": 1.0,
+      "focal_weight": 0.5,
+      "base_channels": 16,
+      "patience": 3,
+      "run_name": "trial_003",
+      "trial_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_003",
+      "best_val_dice": 0.759607697923478,
+      "best_val_loss": 0.35970743000507355,
+      "best_threshold": 0.2,
+      "best_epoch": 8,
+      "epochs_run": 8,
+      "num_train_cases": 296,
+      "num_val_cases": 52,
+      "nnunet_val_dice": 0.7923860725543839,
+      "profound_val_dice": 0.18883604299306084
+    },
+    {
+      "trial_index": 4,
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "pos_weight": 10.0,
+      "bce_weight": 1.0,
+      "dice_weight": 1.0,
+      "focal_weight": 0.5,
+      "base_channels": 16,
+      "patience": 3,
+      "run_name": "trial_004",
+      "trial_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_004",
+      "best_val_dice": 0.7558764024813208,
+      "best_val_loss": 0.40700010625788796,
+      "best_threshold": 0.3,
+      "best_epoch": 8,
+      "epochs_run": 8,
+      "num_train_cases": 296,
+      "num_val_cases": 52,
+      "nnunet_val_dice": 0.7902082627740274,
+      "profound_val_dice": 0.20441644113636184
+    }
+  ],
+  "failures": [],
+  "best_config": {
+    "trial_index": 1,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "pos_weight": 5.0,
+    "bce_weight": 1.0,
+    "dice_weight": 1.0,
+    "focal_weight": 0.5,
+    "base_channels": 16,
+    "patience": 3,
+    "run_name": "trial_001",
+    "trial_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_001",
+    "best_val_dice": 0.7649764255466892,
+    "best_val_loss": 0.6997647666587279,
+    "best_threshold": 0.85,
+    "best_epoch": 8,
+    "epochs_run": 8,
+    "num_train_cases": 296,
+    "num_val_cases": 52,
+    "nnunet_val_dice": 0.7730250467765282,
+    "profound_val_dice": 0.14090377930619374
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "source_search_dir": "mpmri/reports/hyper_lomix_mpmri/searches/smoke_search",
+  "num_train_cases": 10,
+  "train_ids": [
+    "P-10104751",
+    "P-10650700",
+    "P-11358796",
+    "P-11994173",
+    "P-12099863",
+    "P-12268789",
+    "P-12408722",
+    "P-12620723",
+    "P-12720015",
+    "P-12743658"
+  ]
+}

@@ -1,0 +1,2 @@
+trial_index,lr,weight_decay,pos_weight,bce_weight,dice_weight,focal_weight,base_channels,patience,run_name,trial_dir,best_val_dice,best_val_loss,best_threshold,best_epoch,epochs_run,num_train_cases,num_val_cases,nnunet_val_dice,profound_val_dice
+1,0.0003,0.0001,10.0,1.0,1.0,0.5,16,1,trial_001,/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/trials/trial_001,0.7879133409350056,1.0573500394821167,0.9,1,1,9,1,0.9694793536804309,0.015223842084892272

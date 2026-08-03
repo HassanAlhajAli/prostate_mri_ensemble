@@ -1,0 +1,13 @@
+{
+    "channel_names": {
+        "0": "T2",
+        "1": "ADC",
+        "2": "DWI"
+    },
+    "labels": {
+        "background": 0,
+        "lesion": 1
+    },
+    "numTraining": 348,
+    "file_ending": ".nii.gz"
+}

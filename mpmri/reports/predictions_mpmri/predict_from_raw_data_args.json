@@ -1,0 +1,447 @@
+{
+    "folder_with_segs_from_prev_stage": null,
+    "list_of_lists_or_source_folder": [
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-11957282_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-11957282_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-11957282_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-14032542_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-14032542_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-14032542_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-14654260_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-14654260_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-14654260_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-14954522_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-14954522_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-14954522_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-15327674_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-15327674_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-15327674_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-16053039_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-16053039_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-16053039_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-16710155_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-16710155_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-16710155_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-19377974_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-19377974_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-19377974_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-20124941_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-20124941_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-20124941_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-20436077_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-20436077_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-20436077_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21070957_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21070957_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21070957_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21619992_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21619992_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21619992_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21678209_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21678209_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21678209_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21733525_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21733525_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-21733525_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-22366139_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-22366139_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-22366139_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-24261448_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-24261448_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-24261448_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-25638148_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-25638148_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-25638148_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-26897182_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-26897182_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-26897182_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-27245800_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-27245800_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-27245800_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-27948620_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-27948620_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-27948620_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-31651292_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-31651292_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-31651292_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-31906541_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-31906541_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-31906541_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-32671513_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-32671513_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-32671513_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-33013535_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-33013535_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-33013535_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-33491240_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-33491240_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-33491240_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-33501183_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-33501183_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-33501183_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-34226030_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-34226030_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-34226030_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-34389193_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-34389193_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-34389193_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-35716717_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-35716717_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-35716717_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-36790509_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-36790509_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-36790509_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-38579295_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-38579295_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-38579295_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-39135340_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-39135340_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-39135340_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-39807153_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-39807153_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-39807153_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-41983398_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-41983398_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-41983398_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-42106564_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-42106564_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-42106564_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-45643386_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-45643386_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-45643386_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-45846284_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-45846284_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-45846284_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-46565895_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-46565895_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-46565895_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-47893170_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-47893170_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-47893170_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-48279393_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-48279393_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-48279393_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-48378131_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-48378131_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-48378131_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-48598870_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-48598870_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-48598870_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-49560676_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-49560676_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-49560676_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-50046359_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-50046359_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-50046359_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-50103926_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-50103926_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-50103926_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-53310774_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-53310774_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-53310774_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-54144749_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-54144749_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-54144749_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-56941755_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-56941755_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-56941755_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-57099055_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-57099055_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-57099055_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-57667967_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-57667967_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-57667967_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-63505213_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-63505213_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-63505213_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-65653292_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-65653292_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-65653292_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-65885996_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-65885996_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-65885996_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-66467077_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-66467077_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-66467077_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-67096033_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-67096033_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-67096033_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-67880023_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-67880023_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-67880023_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-69231382_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-69231382_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-69231382_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-69562083_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-69562083_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-69562083_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-71026581_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-71026581_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-71026581_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-71257089_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-71257089_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-71257089_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-73926971_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-73926971_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-73926971_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-74950246_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-74950246_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-74950246_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-77161890_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-77161890_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-77161890_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-77507911_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-77507911_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-77507911_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-78505089_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-78505089_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-78505089_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-80042707_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-80042707_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-80042707_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-81521122_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-81521122_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-81521122_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-81754495_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-81754495_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-81754495_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-83360761_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-83360761_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-83360761_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-83437386_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-83437386_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-83437386_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-83636139_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-83636139_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-83636139_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-85326736_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-85326736_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-85326736_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-87460687_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-87460687_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-87460687_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-87523934_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-87523934_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-87523934_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-88338115_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-88338115_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-88338115_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-88554873_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-88554873_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-88554873_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-90456256_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-90456256_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-90456256_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-90955293_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-90955293_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-90955293_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-91099488_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-91099488_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-91099488_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-91331790_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-91331790_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-91331790_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-92444392_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-92444392_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-92444392_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-95986532_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-95986532_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-95986532_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-96023772_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-96023772_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-96023772_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-96279217_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-96279217_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-96279217_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-96937595_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-96937595_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-96937595_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-97778768_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-97778768_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-97778768_0002.nii.gz"
+        ],
+        [
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-99101207_0000.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-99101207_0001.nii.gz",
+            "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/data/nnUNet_data/nnUNet_raw/Dataset501_ProstateMPMRI/imagesTs/P-99101207_0002.nii.gz"
+        ]
+    ],
+    "num_parts": 1,
+    "num_processes_preprocessing": 1,
+    "num_processes_segmentation_export": 1,
+    "output_folder_or_list_of_truncated_output_files": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/predictions_mpmri",
+    "overwrite": true,
+    "part_id": 0,
+    "save_probabilities": false
+}

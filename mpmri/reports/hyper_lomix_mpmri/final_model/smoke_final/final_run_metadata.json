@@ -1,0 +1,13 @@
+{
+  "device": "cuda",
+  "args": {
+    "search_dir": "mpmri/reports/hyper_lomix_mpmri/searches/smoke_search",
+    "final_run_name": "smoke_final",
+    "output_dir": "mpmri/reports/hyper_lomix_mpmri/final_model/smoke_final",
+    "final_epochs": 1,
+    "epochs_policy": "best_epoch",
+    "max_cases": 10
+  },
+  "run_dir": "mpmri/reports/hyper_lomix_mpmri/final_model/smoke_final",
+  "source_leaderboard": "mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/leaderboard.json"
+}

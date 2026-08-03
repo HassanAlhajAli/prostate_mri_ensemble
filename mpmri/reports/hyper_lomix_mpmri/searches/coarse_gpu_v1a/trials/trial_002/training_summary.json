@@ -1,0 +1,81 @@
+{
+  "model": "ClinicalGuidedLoMixNet",
+  "split_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/shared_train_val_split.json",
+  "run_name": "trial_002",
+  "config": {
+    "seed": 42,
+    "val_ratio": 0.15,
+    "epochs": 8,
+    "batch_size": 1,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "pos_weight": 10.0,
+    "bce_weight": 1.0,
+    "dice_weight": 1.0,
+    "focal_weight": 0.5,
+    "max_cases": null,
+    "patience": 3,
+    "base_channels": 16,
+    "run_name": "trial_002"
+  },
+  "paths": {
+    "run_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_002",
+    "checkpoint_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_002/checkpoints",
+    "best_model_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_002/checkpoints/hyper_lomix_best.pt",
+    "metrics_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_002/training_summary.json",
+    "metadata_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/trials/trial_002/run_metadata.json"
+  },
+  "best_val_loss": 0.7302242185060794,
+  "best_val_dice": 0.7628437400117767,
+  "best_threshold": 0.9,
+  "best_epoch": 8,
+  "baselines_at_hyper_threshold": {
+    "nnunet_val_dice": 0.7687397158571946,
+    "profound_val_dice": 0.10018724744907556
+  },
+  "num_train_cases": 296,
+  "num_val_cases": 52,
+  "epochs_run": 8,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.931844599746369,
+      "val_loss": 0.9111909705858964
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8869118249496898,
+      "val_loss": 0.8857050383320222
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8627898646770297,
+      "val_loss": 0.8643390375834245
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.8377147436746069,
+      "val_loss": 0.8415586283573737
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.8121380401221482,
+      "val_loss": 0.8155299986784275
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.784075719681946,
+      "val_loss": 0.7901164407913501
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.7543222774323579,
+      "val_loss": 0.7590096334998424
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.7221713450712126,
+      "val_loss": 0.7302242185060794
+    }
+  ]
+}

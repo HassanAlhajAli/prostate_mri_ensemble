@@ -1,0 +1,13 @@
+{
+  "device": "cuda",
+  "args": {
+    "search_dir": "mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a",
+    "final_run_name": "final_from_coarse_gpu_v1a",
+    "output_dir": null,
+    "final_epochs": null,
+    "epochs_policy": "best_epoch",
+    "max_cases": null
+  },
+  "run_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/final_model/final_from_coarse_gpu_v1a",
+  "source_leaderboard": "mpmri/reports/hyper_lomix_mpmri/searches/coarse_gpu_v1a/leaderboard.json"
+}

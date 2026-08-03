@@ -1,0 +1,740 @@
+{
+  "final_run_dir": "mpmri/reports/hyper_lomix_mpmri/final_model/final_from_coarse_gpu_v1a",
+  "checkpoint_path": "mpmri/reports/hyper_lomix_mpmri/final_model/final_from_coarse_gpu_v1a/checkpoints/hyper_lomix_final.pt",
+  "frozen_threshold": 0.85,
+  "num_test_cases": 87,
+  "hyper_lomix": {
+    "dice": {
+      "mean": 0.3394461544652029,
+      "median": 0.38304585612116115,
+      "min": 0.0,
+      "max": 0.8003683483522989
+    },
+    "precision": {
+      "mean": 0.47435994833653805,
+      "median": 0.48058455114822546,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "recall": {
+      "mean": 0.4136895879946238,
+      "median": 0.3875435328419859,
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "nnunet": {
+    "dice": {
+      "mean": 0.33418179833660683,
+      "median": 0.3642538456416062,
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "profound": {
+    "dice": {
+      "mean": 0.13157071120790717,
+      "median": 0.09538693060137755,
+      "min": 0.0,
+      "max": 0.5281197200096548
+    }
+  },
+  "per_case": [
+    {
+      "case_id": "P-11957282",
+      "hyper_lomix_dice": 0.5775817538840545,
+      "hyper_lomix_precision": 0.6589899356242633,
+      "hyper_lomix_recall": 0.5140755410949215,
+      "nnunet_dice": 0.5315921041289544,
+      "profound_dice": 0.15374109842942152
+    },
+    {
+      "case_id": "P-14032542",
+      "hyper_lomix_dice": 0.7349638517151208,
+      "hyper_lomix_precision": 0.599197391522448,
+      "hyper_lomix_recall": 0.9502784407319014,
+      "nnunet_dice": 0.7412128938262612,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-14654260",
+      "hyper_lomix_dice": 0.561038961038961,
+      "hyper_lomix_precision": 0.4175094693271897,
+      "hyper_lomix_recall": 0.8549496241803934,
+      "nnunet_dice": 0.5929765685863246,
+      "profound_dice": 0.22933768857179695
+    },
+    {
+      "case_id": "P-14954522",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 1.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-15327674",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 1.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-16053039",
+      "hyper_lomix_dice": 0.4972087210109707,
+      "hyper_lomix_precision": 0.3373407703324037,
+      "hyper_lomix_recall": 0.9450955548516524,
+      "nnunet_dice": 0.5467500168044632,
+      "profound_dice": 0.09538693060137755
+    },
+    {
+      "case_id": "P-16710155",
+      "hyper_lomix_dice": 0.8003683483522989,
+      "hyper_lomix_precision": 0.7905919043596907,
+      "hyper_lomix_recall": 0.8103896103896104,
+      "nnunet_dice": 0.8017749378771744,
+      "profound_dice": 0.3689145329967544
+    },
+    {
+      "case_id": "P-19377974",
+      "hyper_lomix_dice": 0.6249232658072437,
+      "hyper_lomix_precision": 0.566044730013592,
+      "hyper_lomix_recall": 0.6974725943970768,
+      "nnunet_dice": 0.6419314226468192,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-20124941",
+      "hyper_lomix_dice": 0.268677780718003,
+      "hyper_lomix_precision": 0.16092561284868978,
+      "hyper_lomix_recall": 0.813134009610251,
+      "nnunet_dice": 0.29190107207302834,
+      "profound_dice": 0.14891179839633448
+    },
+    {
+      "case_id": "P-20436077",
+      "hyper_lomix_dice": 0.17688266199649738,
+      "hyper_lomix_precision": 0.3807215939687668,
+      "hyper_lomix_recall": 0.11520286785074141,
+      "nnunet_dice": 0.07849478171394973,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-21070957",
+      "hyper_lomix_dice": 0.5818105144784931,
+      "hyper_lomix_precision": 0.8115686274509804,
+      "hyper_lomix_recall": 0.4534399649430324,
+      "nnunet_dice": 0.5381472401753213,
+      "profound_dice": 0.36573211858861426
+    },
+    {
+      "case_id": "P-21619992",
+      "hyper_lomix_dice": 0.5423768386644875,
+      "hyper_lomix_precision": 0.6753561391607714,
+      "hyper_lomix_recall": 0.453150399895962,
+      "nnunet_dice": 0.4826344676180022,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-21678209",
+      "hyper_lomix_dice": 0.5439389217824867,
+      "hyper_lomix_precision": 0.38931638229062115,
+      "hyper_lomix_recall": 0.9023003360041354,
+      "nnunet_dice": 0.6474778027124598,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-21733525",
+      "hyper_lomix_dice": 0.24746779277211664,
+      "hyper_lomix_precision": 0.8503680336487908,
+      "hyper_lomix_recall": 0.1448037530439765,
+      "nnunet_dice": 0.19373210308622335,
+      "profound_dice": 0.1602216247046362
+    },
+    {
+      "case_id": "P-22366139",
+      "hyper_lomix_dice": 0.4437468182589513,
+      "hyper_lomix_precision": 0.4095536413469068,
+      "hyper_lomix_recall": 0.4841695982225514,
+      "nnunet_dice": 0.44560379074331113,
+      "profound_dice": 0.18057515878616795
+    },
+    {
+      "case_id": "P-24261448",
+      "hyper_lomix_dice": 0.7099047827514502,
+      "hyper_lomix_precision": 0.8365230848594274,
+      "hyper_lomix_recall": 0.6165779467680609,
+      "nnunet_dice": 0.6888631143253507,
+      "profound_dice": 0.026947923533289387
+    },
+    {
+      "case_id": "P-25638148",
+      "hyper_lomix_dice": 0.515513897866839,
+      "hyper_lomix_precision": 0.7696638249959787,
+      "hyper_lomix_recall": 0.3875435328419859,
+      "nnunet_dice": 0.5006874427131073,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-26897182",
+      "hyper_lomix_dice": 0.4305691854759568,
+      "hyper_lomix_precision": 0.4250423831436183,
+      "hyper_lomix_recall": 0.436241610738255,
+      "nnunet_dice": 0.39621188789651984,
+      "profound_dice": 0.4060248853962017
+    },
+    {
+      "case_id": "P-27245800",
+      "hyper_lomix_dice": 0.4223119296917707,
+      "hyper_lomix_precision": 0.4941934848932192,
+      "hyper_lomix_recall": 0.36868575624082234,
+      "nnunet_dice": 0.3973185088293002,
+      "profound_dice": 0.18384107430220298
+    },
+    {
+      "case_id": "P-27948620",
+      "hyper_lomix_dice": 0.5048865776024388,
+      "hyper_lomix_precision": 0.3750999200639488,
+      "hyper_lomix_recall": 0.772004387167535,
+      "nnunet_dice": 0.5132789902708388,
+      "profound_dice": 0.23126291743718047
+    },
+    {
+      "case_id": "P-31651292",
+      "hyper_lomix_dice": 0.18786464410735124,
+      "hyper_lomix_precision": 0.10593847672314526,
+      "hyper_lomix_recall": 0.8288288288288288,
+      "nnunet_dice": 0.23811957077158916,
+      "profound_dice": 0.0658623417721519
+    },
+    {
+      "case_id": "P-31906541",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 1.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-32671513",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 1.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.1452895458016982
+    },
+    {
+      "case_id": "P-33013535",
+      "hyper_lomix_dice": 0.5001802172905617,
+      "hyper_lomix_precision": 0.341921858500528,
+      "hyper_lomix_recall": 0.9311733128834356,
+      "nnunet_dice": 0.5371481848377134,
+      "profound_dice": 0.3068696527428284
+    },
+    {
+      "case_id": "P-33491240",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 1.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-33501183",
+      "hyper_lomix_dice": 0.21078625049387595,
+      "hyper_lomix_precision": 0.12685014563395353,
+      "hyper_lomix_recall": 0.623065693430657,
+      "nnunet_dice": 0.2271388134712033,
+      "profound_dice": 0.38622216074145804
+    },
+    {
+      "case_id": "P-34226030",
+      "hyper_lomix_dice": 0.5370595382746051,
+      "hyper_lomix_precision": 0.7322289156626506,
+      "hyper_lomix_recall": 0.42403628117913833,
+      "nnunet_dice": 0.46851202707603046,
+      "profound_dice": 0.1159124273951618
+    },
+    {
+      "case_id": "P-34389193",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0007675859422117441
+    },
+    {
+      "case_id": "P-35716717",
+      "hyper_lomix_dice": 0.1265498760099192,
+      "hyper_lomix_precision": 0.07840999206978588,
+      "hyper_lomix_recall": 0.32780770824699546,
+      "nnunet_dice": 0.15557993417772015,
+      "profound_dice": 0.042991988577774254
+    },
+    {
+      "case_id": "P-36790509",
+      "hyper_lomix_dice": 0.0863053882970511,
+      "hyper_lomix_precision": 0.9721739130434782,
+      "hyper_lomix_recall": 0.04515712093060829,
+      "nnunet_dice": 0.01531123491923524,
+      "profound_dice": 0.10964585938860481
+    },
+    {
+      "case_id": "P-38579295",
+      "hyper_lomix_dice": 0.5995085995085995,
+      "hyper_lomix_precision": 0.43194335169158143,
+      "hyper_lomix_recall": 0.9794826048171276,
+      "nnunet_dice": 0.7134207870837538,
+      "profound_dice": 0.21789340101522842
+    },
+    {
+      "case_id": "P-39135340",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-39807153",
+      "hyper_lomix_dice": 0.33228536880290205,
+      "hyper_lomix_precision": 0.29163718692514506,
+      "hyper_lomix_recall": 0.3860996627950543,
+      "nnunet_dice": 0.2955715756951596,
+      "profound_dice": 0.21130151536609545
+    },
+    {
+      "case_id": "P-41983398",
+      "hyper_lomix_dice": 0.6237013261255173,
+      "hyper_lomix_precision": 0.5765146783260462,
+      "hyper_lomix_recall": 0.6793008279668813,
+      "nnunet_dice": 0.5667064914376743,
+      "profound_dice": 0.32569849554805036
+    },
+    {
+      "case_id": "P-42106564",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.005308880308880309
+    },
+    {
+      "case_id": "P-45643386",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 1.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.166126615797359
+    },
+    {
+      "case_id": "P-45846284",
+      "hyper_lomix_dice": 0.3478816018572258,
+      "hyper_lomix_precision": 0.680672268907563,
+      "hyper_lomix_recall": 0.23364777422624153,
+      "nnunet_dice": 0.16706314143954326,
+      "profound_dice": 0.3092595011100953
+    },
+    {
+      "case_id": "P-46565895",
+      "hyper_lomix_dice": 0.5970113568439929,
+      "hyper_lomix_precision": 0.7357100766057749,
+      "hyper_lomix_recall": 0.5023134178233756,
+      "nnunet_dice": 0.5642625081221573,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-47893170",
+      "hyper_lomix_dice": 0.4049092200020286,
+      "hyper_lomix_precision": 0.3294001155210826,
+      "hyper_lomix_recall": 0.525332280563232,
+      "nnunet_dice": 0.4703028713779992,
+      "profound_dice": 0.0007892659826361484
+    },
+    {
+      "case_id": "P-48279393",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-48378131",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-48598870",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-49560676",
+      "hyper_lomix_dice": 0.24930838079739626,
+      "hyper_lomix_precision": 0.5640648011782032,
+      "hyper_lomix_recall": 0.1600167119281387,
+      "nnunet_dice": 0.06460674157303371,
+      "profound_dice": 0.34295868502887605
+    },
+    {
+      "case_id": "P-50046359",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.16801044306227444
+    },
+    {
+      "case_id": "P-50103926",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-53310774",
+      "hyper_lomix_dice": 0.6071964017991005,
+      "hyper_lomix_precision": 0.7575757575757576,
+      "hyper_lomix_recall": 0.5066299724793595,
+      "nnunet_dice": 0.5858215179316096,
+      "profound_dice": 0.2943007662835249
+    },
+    {
+      "case_id": "P-54144749",
+      "hyper_lomix_dice": 0.4665300800894021,
+      "hyper_lomix_precision": 0.7184488297384121,
+      "hyper_lomix_recall": 0.3454134260025374,
+      "nnunet_dice": 0.426829758982819,
+      "profound_dice": 0.009018587088022877
+    },
+    {
+      "case_id": "P-56941755",
+      "hyper_lomix_dice": 0.7369285518751711,
+      "hyper_lomix_precision": 0.7650625236832134,
+      "hyper_lomix_recall": 0.7107903538109488,
+      "nnunet_dice": 0.6906955553305659,
+      "profound_dice": 0.1542263964409293
+    },
+    {
+      "case_id": "P-57099055",
+      "hyper_lomix_dice": 0.4245614035087719,
+      "hyper_lomix_precision": 0.5252306022788931,
+      "hyper_lomix_recall": 0.3562753036437247,
+      "nnunet_dice": 0.3295522388059702,
+      "profound_dice": 0.018719108213271638
+    },
+    {
+      "case_id": "P-57667967",
+      "hyper_lomix_dice": 0.6290763344871562,
+      "hyper_lomix_precision": 0.48058455114822546,
+      "hyper_lomix_recall": 0.9103611916688636,
+      "nnunet_dice": 0.7669712038857407,
+      "profound_dice": 0.03641351789499938
+    },
+    {
+      "case_id": "P-63505213",
+      "hyper_lomix_dice": 0.38304585612116115,
+      "hyper_lomix_precision": 0.4892530897367007,
+      "hyper_lomix_recall": 0.314725198755617,
+      "nnunet_dice": 0.3957533896137119,
+      "profound_dice": 0.26646706586826346
+    },
+    {
+      "case_id": "P-65653292",
+      "hyper_lomix_dice": 0.36830520909757886,
+      "hyper_lomix_precision": 0.4451482138332911,
+      "hyper_lomix_recall": 0.3140865212727923,
+      "nnunet_dice": 0.24604859636706772,
+      "profound_dice": 0.46623648095973824
+    },
+    {
+      "case_id": "P-65885996",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0698617978952707
+    },
+    {
+      "case_id": "P-66467077",
+      "hyper_lomix_dice": 0.24215485820961863,
+      "hyper_lomix_precision": 0.28280730897009965,
+      "hyper_lomix_recall": 0.21172081454997668,
+      "nnunet_dice": 0.19725683174536698,
+      "profound_dice": 0.18434690639873083
+    },
+    {
+      "case_id": "P-67096033",
+      "hyper_lomix_dice": 0.6007764362289418,
+      "hyper_lomix_precision": 0.4596936828909359,
+      "hyper_lomix_recall": 0.866803699897225,
+      "nnunet_dice": 0.6296647691334598,
+      "profound_dice": 0.38511884257664486
+    },
+    {
+      "case_id": "P-67880023",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 1.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-69231382",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 1.0,
+      "nnunet_dice": 1.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-69562083",
+      "hyper_lomix_dice": 0.3470518647655812,
+      "hyper_lomix_precision": 0.2958912835757511,
+      "hyper_lomix_recall": 0.4196025293586269,
+      "nnunet_dice": 0.36110321296559567,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-71026581",
+      "hyper_lomix_dice": 0.5948538817278363,
+      "hyper_lomix_precision": 0.8440488656195463,
+      "hyper_lomix_recall": 0.459262354237095,
+      "nnunet_dice": 0.5555381890174013,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-71257089",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-73926971",
+      "hyper_lomix_dice": 0.6805774710911189,
+      "hyper_lomix_precision": 0.6973119057960523,
+      "hyper_lomix_recall": 0.6646274149034038,
+      "nnunet_dice": 0.639714750144198,
+      "profound_dice": 0.31599431642676223
+    },
+    {
+      "case_id": "P-74950246",
+      "hyper_lomix_dice": 0.5395545076627164,
+      "hyper_lomix_precision": 0.7522491349480969,
+      "hyper_lomix_recall": 0.42062493953758345,
+      "nnunet_dice": 0.49986670221274326,
+      "profound_dice": 0.09145862504695877
+    },
+    {
+      "case_id": "P-77161890",
+      "hyper_lomix_dice": 0.5039706259072667,
+      "hyper_lomix_precision": 0.7806878306878307,
+      "hyper_lomix_recall": 0.3720842264531585,
+      "nnunet_dice": 0.4319863403528742,
+      "profound_dice": 0.24280119788067264
+    },
+    {
+      "case_id": "P-77507911",
+      "hyper_lomix_dice": 0.14753499695678637,
+      "hyper_lomix_precision": 0.10982239942007974,
+      "hyper_lomix_recall": 0.22469410456062291,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-78505089",
+      "hyper_lomix_dice": 0.5624161619446364,
+      "hyper_lomix_precision": 0.6879817015563622,
+      "hyper_lomix_recall": 0.4756110137155821,
+      "nnunet_dice": 0.5436509659214239,
+      "profound_dice": 0.2775768773921077
+    },
+    {
+      "case_id": "P-80042707",
+      "hyper_lomix_dice": 0.31075110456553756,
+      "hyper_lomix_precision": 0.2984441301272984,
+      "hyper_lomix_recall": 0.3241167434715822,
+      "nnunet_dice": 0.3293209175562117,
+      "profound_dice": 0.03828483920367534
+    },
+    {
+      "case_id": "P-81521122",
+      "hyper_lomix_dice": 0.5333778371161548,
+      "hyper_lomix_precision": 0.5745249101181304,
+      "hyper_lomix_recall": 0.4977307110438729,
+      "nnunet_dice": 0.5215395848544905,
+      "profound_dice": 0.21184289472469656
+    },
+    {
+      "case_id": "P-81754495",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.09327633113097551
+    },
+    {
+      "case_id": "P-83360761",
+      "hyper_lomix_dice": 0.5178714859437751,
+      "hyper_lomix_precision": 0.3775711880535832,
+      "hyper_lomix_recall": 0.8240933056398786,
+      "nnunet_dice": 0.5468775836410736,
+      "profound_dice": 0.5281197200096548
+    },
+    {
+      "case_id": "P-83437386",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-83636139",
+      "hyper_lomix_dice": 0.4858927177428348,
+      "hyper_lomix_precision": 0.4964110743989974,
+      "hyper_lomix_recall": 0.47581085508354265,
+      "nnunet_dice": 0.44516006819473386,
+      "profound_dice": 0.2978069183811892
+    },
+    {
+      "case_id": "P-85326736",
+      "hyper_lomix_dice": 0.34056268045390453,
+      "hyper_lomix_precision": 0.3307682274683709,
+      "hyper_lomix_recall": 0.35095488513700523,
+      "nnunet_dice": 0.27512515878353133,
+      "profound_dice": 0.0925589836660617
+    },
+    {
+      "case_id": "P-87460687",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 1.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0005017246785826277
+    },
+    {
+      "case_id": "P-87523934",
+      "hyper_lomix_dice": 0.3160105419206062,
+      "hyper_lomix_precision": 0.9058073654390935,
+      "hyper_lomix_recall": 0.1913906624102155,
+      "nnunet_dice": 0.24222386566320095,
+      "profound_dice": 0.32994313566206335
+    },
+    {
+      "case_id": "P-88338115",
+      "hyper_lomix_dice": 0.37672774027643846,
+      "hyper_lomix_precision": 0.42396180002893935,
+      "hyper_lomix_recall": 0.33896344285053215,
+      "nnunet_dice": 0.283784844915587,
+      "profound_dice": 0.2362893153173612
+    },
+    {
+      "case_id": "P-88554873",
+      "hyper_lomix_dice": 0.38804873833390946,
+      "hyper_lomix_precision": 0.8199580023737789,
+      "hyper_lomix_recall": 0.2541672562614971,
+      "nnunet_dice": 0.3642538456416062,
+      "profound_dice": 0.24226061915046795
+    },
+    {
+      "case_id": "P-90456256",
+      "hyper_lomix_dice": 0.04543979227523531,
+      "hyper_lomix_precision": 1.0,
+      "hyper_lomix_recall": 0.023248090335436733,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.11928712871287128
+    },
+    {
+      "case_id": "P-90955293",
+      "hyper_lomix_dice": 0.41807308970099666,
+      "hyper_lomix_precision": 0.33625480974775546,
+      "hyper_lomix_recall": 0.5525114155251142,
+      "nnunet_dice": 0.4034193654446819,
+      "profound_dice": 0.12589109661762476
+    },
+    {
+      "case_id": "P-91099488",
+      "hyper_lomix_dice": 0.4241964408883984,
+      "hyper_lomix_precision": 0.27795353882310403,
+      "hyper_lomix_recall": 0.8951965065502183,
+      "nnunet_dice": 0.45606469002695416,
+      "profound_dice": 0.11712358260370317
+    },
+    {
+      "case_id": "P-91331790",
+      "hyper_lomix_dice": 0.6367656014191533,
+      "hyper_lomix_precision": 0.5731376006863352,
+      "hyper_lomix_recall": 0.7162854419823683,
+      "nnunet_dice": 0.6362630817663575,
+      "profound_dice": 0.03383441364409507
+    },
+    {
+      "case_id": "P-92444392",
+      "hyper_lomix_dice": 0.6269617307787514,
+      "hyper_lomix_precision": 0.8014175420832806,
+      "hyper_lomix_recall": 0.5148804683688405,
+      "nnunet_dice": 0.5833422089679412,
+      "profound_dice": 0.036619718309859155
+    },
+    {
+      "case_id": "P-95986532",
+      "hyper_lomix_dice": 0.7097202303230088,
+      "hyper_lomix_precision": 0.6494554571809136,
+      "hyper_lomix_recall": 0.78231324618942,
+      "nnunet_dice": 0.7127434714425328,
+      "profound_dice": 0.21817258238618326
+    },
+    {
+      "case_id": "P-96023772",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.032528676596473204
+    },
+    {
+      "case_id": "P-96279217",
+      "hyper_lomix_dice": 0.745945945945946,
+      "hyper_lomix_precision": 0.7778018642965532,
+      "hyper_lomix_recall": 0.7165967645296585,
+      "nnunet_dice": 0.7139442231075698,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-96937595",
+      "hyper_lomix_dice": 0.0,
+      "hyper_lomix_precision": 0.0,
+      "hyper_lomix_recall": 0.0,
+      "nnunet_dice": 0.0,
+      "profound_dice": 0.0
+    },
+    {
+      "case_id": "P-97778768",
+      "hyper_lomix_dice": 0.4649761486316847,
+      "hyper_lomix_precision": 0.6342860701164456,
+      "hyper_lomix_recall": 0.3670101606975571,
+      "nnunet_dice": 0.435984138954436,
+      "profound_dice": 0.2623553873220664
+    },
+    {
+      "case_id": "P-99101207",
+      "hyper_lomix_dice": 0.368434598404308,
+      "hyper_lomix_precision": 0.9842915322367377,
+      "hyper_lomix_recall": 0.22663338001583144,
+      "nnunet_dice": 0.30898235590311673,
+      "profound_dice": 0.14560820327905796
+    }
+  ]
+}

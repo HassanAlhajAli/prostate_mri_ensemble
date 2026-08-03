@@ -1,0 +1,89 @@
+{
+  "search_name": "smoke_search",
+  "search_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search",
+  "split_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/shared_train_val_split.json",
+  "num_trials": 1,
+  "num_successful_trials": 1,
+  "num_failed_trials": 0,
+  "ranking_rule": "best_val_dice desc, best_val_loss asc",
+  "args": {
+    "search_name": "smoke_search",
+    "epochs": 1,
+    "batch_size": 1,
+    "val_ratio": 0.15,
+    "max_cases": 10,
+    "seed": 42,
+    "patience": [
+      1
+    ],
+    "base_channels": [
+      16
+    ],
+    "lrs": [
+      0.0003
+    ],
+    "weight_decays": [
+      0.0001
+    ],
+    "pos_weights": [
+      10.0
+    ],
+    "bce_weights": [
+      1.0
+    ],
+    "dice_weights": [
+      1.0
+    ],
+    "focal_weights": [
+      0.5
+    ],
+    "run_root": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches"
+  },
+  "leaderboard": [
+    {
+      "trial_index": 1,
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "pos_weight": 10.0,
+      "bce_weight": 1.0,
+      "dice_weight": 1.0,
+      "focal_weight": 0.5,
+      "base_channels": 16,
+      "patience": 1,
+      "run_name": "trial_001",
+      "trial_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/trials/trial_001",
+      "best_val_dice": 0.7879133409350056,
+      "best_val_loss": 1.0573500394821167,
+      "best_threshold": 0.9,
+      "best_epoch": 1,
+      "epochs_run": 1,
+      "num_train_cases": 9,
+      "num_val_cases": 1,
+      "nnunet_val_dice": 0.9694793536804309,
+      "profound_val_dice": 0.015223842084892272
+    }
+  ],
+  "failures": [],
+  "best_config": {
+    "trial_index": 1,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "pos_weight": 10.0,
+    "bce_weight": 1.0,
+    "dice_weight": 1.0,
+    "focal_weight": 0.5,
+    "base_channels": 16,
+    "patience": 1,
+    "run_name": "trial_001",
+    "trial_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/trials/trial_001",
+    "best_val_dice": 0.7879133409350056,
+    "best_val_loss": 1.0573500394821167,
+    "best_threshold": 0.9,
+    "best_epoch": 1,
+    "epochs_run": 1,
+    "num_train_cases": 9,
+    "num_val_cases": 1,
+    "nnunet_val_dice": 0.9694793536804309,
+    "profound_val_dice": 0.015223842084892272
+  }
+}

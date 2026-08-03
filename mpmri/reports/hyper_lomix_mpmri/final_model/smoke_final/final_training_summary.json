@@ -1,0 +1,38 @@
+{
+  "final_run_name": "smoke_final",
+  "run_dir": "mpmri/reports/hyper_lomix_mpmri/final_model/smoke_final",
+  "checkpoint_path": "mpmri/reports/hyper_lomix_mpmri/final_model/smoke_final/checkpoints/hyper_lomix_final.pt",
+  "search_dir": "mpmri/reports/hyper_lomix_mpmri/searches/smoke_search",
+  "source_best_config": {
+    "trial_index": 1,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "pos_weight": 10.0,
+    "bce_weight": 1.0,
+    "dice_weight": 1.0,
+    "focal_weight": 0.5,
+    "base_channels": 16,
+    "patience": 1,
+    "run_name": "trial_001",
+    "trial_dir": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/searches/smoke_search/trials/trial_001",
+    "best_val_dice": 0.7879133409350056,
+    "best_val_loss": 1.0573500394821167,
+    "best_threshold": 0.9,
+    "best_epoch": 1,
+    "epochs_run": 1,
+    "num_train_cases": 9,
+    "num_val_cases": 1,
+    "nnunet_val_dice": 0.9694793536804309,
+    "profound_val_dice": 0.015223842084892272
+  },
+  "frozen_threshold": 0.9,
+  "final_epochs": 1,
+  "epochs_policy": "best_epoch",
+  "num_train_cases": 10,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0247848510742188
+    }
+  ]
+}

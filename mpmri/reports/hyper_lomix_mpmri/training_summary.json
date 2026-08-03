@@ -1,0 +1,36 @@
+{
+  "model": "ClinicalGuidedLoMixNet",
+  "split_path": "/mnt/c/Disk D/UCL MSc/Thesis/prostate_mri_ensemble/mpmri/reports/hyper_lomix_mpmri/train_val_split.json",
+  "best_val_loss": 0.6009444006933615,
+  "best_val_dice": 0.7829218104144654,
+  "best_threshold": 0.9,
+  "baselines_at_hyper_threshold": {
+    "nnunet_val_dice": 0.7687397158571947,
+    "profound_val_dice": 0.1001872474490756
+  },
+  "num_train_cases": 296,
+  "num_val_cases": 52,
+  "epochs_run": 4,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9059519760713384,
+      "val_loss": 0.8682989300443575
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8163544182237741,
+      "val_loss": 0.7961362451314926
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7218871040118707,
+      "val_loss": 0.7011676215781615
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6177595066963821,
+      "val_loss": 0.6009444006933615
+    }
+  ]
+}

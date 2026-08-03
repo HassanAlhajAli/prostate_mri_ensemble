@@ -1,0 +1,46 @@
+{
+  "model": "ClinicalGuidedLoMixNet",
+  "split_path": "mpmri/reports/hyper_lomix_mpmri/runs/smoke_impl/train_val_split.json",
+  "run_name": "smoke_impl",
+  "config": {
+    "seed": 42,
+    "val_ratio": 0.15,
+    "epochs": 1,
+    "batch_size": 1,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "pos_weight": 10.0,
+    "bce_weight": 1.0,
+    "dice_weight": 1.0,
+    "focal_weight": 0.5,
+    "max_cases": 10,
+    "patience": 1,
+    "base_channels": 16,
+    "run_name": "smoke_impl"
+  },
+  "paths": {
+    "run_dir": "mpmri/reports/hyper_lomix_mpmri/runs/smoke_impl",
+    "checkpoint_dir": "mpmri/reports/hyper_lomix_mpmri/runs/smoke_impl/checkpoints",
+    "best_model_path": "mpmri/reports/hyper_lomix_mpmri/runs/smoke_impl/checkpoints/hyper_lomix_best.pt",
+    "metrics_path": "mpmri/reports/hyper_lomix_mpmri/runs/smoke_impl/training_summary.json",
+    "metadata_path": "mpmri/reports/hyper_lomix_mpmri/runs/smoke_impl/run_metadata.json"
+  },
+  "best_val_loss": 1.0573500394821167,
+  "best_val_dice": 0.7879133409350056,
+  "best_threshold": 0.9,
+  "best_epoch": 1,
+  "baselines_at_hyper_threshold": {
+    "nnunet_val_dice": 0.9694793536804309,
+    "profound_val_dice": 0.015223842084892272
+  },
+  "num_train_cases": 9,
+  "num_val_cases": 1,
+  "epochs_run": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0130441784858704,
+      "val_loss": 1.0573500394821167
+    }
+  ]
+}
