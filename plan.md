@@ -1,56 +1,73 @@
-# Clean Workspace Plan: nnU-Net + ProFound Only
-
-# Minimal Active Workspace Plan
+# Clean Workspace Plan: Multi-Modal Ensemble & Hypernetwork Fusion
 
 ## Active Workspace Rules
-Keep only the files and folders needed for the current nnU-Net baseline and the fixed data split. Everything else should be archived.
+Keep only the files and folders needed for the active baseline pipelines, cached predictions, and the fixed data split. Everything else should be archived.
 
 ## Keep Active
 * `plan.md`
-* `src/01_data_split.py`
+* `src/` (Active fusion & hypernetwork modules)
 * `data/01_promis_raw/`
 * `data/02_frozen_features/`
 * `data/nnUNet_data/`
-* `checkpoint_best.pth`
-* `checkpoint_final.pth`
-* `training_log_2026_7_23_11_37_50.txt`
+* `checkpoints/nnunet_mpmri/`
+* `checkpoints/profound_mpmri/`
+* `checkpoints/hyper_lomix_mpmri/`
+* `reports/ensemble_cache_mpmri/`
+* `training_log_*.txt`
 
 ## Archive Everything Else
-* All remaining scripts in `src/`
-* ProFound source and model files
+* Stale scripts and deprecated experiment variations
 * SAM-Med3D source, scripts, reports, and visualizations
-* `reports/` contents other than historical archive material
-* `checkpoints/` contents other than the two kept nnU-Net checkpoints
-* exploratory notebooks, temporary logs, and installer files
+* Scratch exploratory notebooks and temporary test output logs
+* Unused intermediate checkpoints outside active best/final weights
 
 ## Current Workflow
-* The split is already complete and remains the fixed source of truth.
-* nnU-Net training has already been run on the remote GPU.
-* The next work should use the kept split and the kept nnU-Net artifacts only.
-* Any future ProFound retraining should start from scratch in a clean, separate path if needed.
+* The dataset split remains fixed as the single source of truth across all modalities and models.
+* Standalone base model probability maps (nnU-Net and ProFound) are cached as `.npy` arrays to prevent redundant compute.
+* Hyper-LoMix uses dynamic weight generation based on tabular clinical context to fuse base model predictions.
 
-## Phase 0: Archive Deprecated / Exploratory Material [In Progress]
-* Move SAM-Med3D scripts, SAM-Med3D reports, SAM-Med3D visualizations, and the SAM-Med3D vendor tree into `archive/`.
-* Move one-off notebook or scratch exploration files into `archive/`.
-* Move temporary rerun logs or stale experiment outputs into `archive/` if they are no longer part of the live workflow.
-* Keep the archived material readable and complete so old experiments remain reproducible.
+---
 
-## Phase 1: Data Preparation [Complete]
-* The dataset split is already complete.
-* Keep the split as the fixed source of truth for all future retraining and evaluation.
+## Phase 0: Archive Deprecated / Exploratory Material [Complete]
+* Moved legacy exploration notebooks, SAM-Med3D scripts, and temporary rerun logs into `archive/`.
+* Preserved read-only access to historical logs and raw features for reproducibility.
 
-## Phase 2: nnU-Net Baseline Setup & Evaluation
-* Keep nnU-Net isolated in its own folder structure.
-* Run inference on the test set using the trained nnU-Net weights.
-* Record the standalone nnU-Net results in its own report.
+## Phase 1: Data Preparation & Fixed Split [Complete]
+* Fixed the train/val/test splits across PROMIS cases.
+* Standardized ground truth label access across all downstream training scripts.
 
-## Phase 3: ProFound Retraining From Scratch
-* Rebuild the ProFound path from scratch rather than relying on old Phase 3 outputs.
-* Keep only the ProFound retraining code that is still needed.
-* Regenerate any required ProFound features or support artifacts using the fixed split.
-* Evaluate ProFound standalone performance on the test set.
+## Phase 2: nnU-Net Baseline Setup & Evaluation [Complete]
+* Trained/evaluated standalone nnU-Net on the fixed split.
+* Preserved model checkpoints (`checkpoint_final.pth`) and extracted standalone evaluation metrics.
 
-## Phase 4: Ensemble Fusion & Comparison
-* Use the standalone nnU-Net and ProFound outputs as the inputs to any future fusion.
-* Compare Simple Averaging, DST, and LoMix only after the standalone baselines are finalized.
-* Map predictions back to native geometry and evaluate final ensemble performance against both baselines.
+## Phase 3: ProFound Standalone Retraining & Feature Extraction [Complete]
+* Retrained the 3D ProFound decoder path on frozen feature embeddings.
+* Preserved champion weights (`final_mpmri_champion.pt`) and computed standalone performance metrics.
+
+## Phase 4: Standard Ensemble Fusion & Baseline Comparison [Complete]
+* Implemented rule-based fusion baselines: Boolean AND, Boolean OR, Simple Averaging, and Dempster-Shafer Theory (DST).
+* Implemented standard LoMix static spatial fusion model.
+* Generated baseline leaderboard comparing all standard fusion strategies against standalone base models.
+
+---
+
+## Phase 5: mpMRI Extension & Prediction Caching [Complete]
+* Extended the single-modality baseline framework to multi-parametric MRI inputs (T2W, ADC, DWI).
+* Cached 3D soft probability volumes (`.npy`) for both nnU-Net and ProFound across train and test splits in `reports/ensemble_cache_mpmri/`.
+* Verified zero data duplication by reading directly from cached probability arrays during downstream ensemble passes.
+
+## Phase 6: Hypernetwork-Guided Dynamic Fusion (Hyper-LoMix) [In Progress]
+* **Clinical Meta-Feature Extraction:**
+  * Parse tabular clinical metadata (`lesion_ordered.csv`).
+  * Extract patient-level severity features (e.g., 2D mode: max ISUP score, max PI-RADS score per patient) and scale to [0, 1].
+* **Hypernetwork Architecture Implementation:**
+  * Construct dual-pathway architecture (`HyperLoMixFusionNet`).
+  * **Spatial Body:** Processes 3D probability stacks from nnU-Net and ProFound.
+  * **Clinical Brain (Hypernetwork):** MLP that ingests patient clinical vectors to dynamically generate weights and biases for the spatial fusion convolutions.
+* **Training & Optimization:**
+  * Train the dynamic kernel parameters using mixed precision (`autocast`) with combined BCE, Soft Dice, and Focal loss functions.
+  * Optimize threshold selection on the validation set during training iterations.
+* **Test Set Evaluation & Leaderboard Generation:**
+  * Run inference on unseen test cases using the champion dynamic model (`hyper_lomix_best.pt`).
+  * Map predicted masks back to native NIfTI geometry.
+  * Compare Hyper-LoMix against standalone models (nnU-Net, ProFound), classical fusion (AND, OR, Average, DST), and static LoMix inside the final `hyper_lomix_test_metrics.json` leaderboard.
