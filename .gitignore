@@ -24,3 +24,9 @@ env/
 archive/root_misc/Miniconda3-latest-Linux-x86_64.sh
 reports/ensemble_cache/
 reports/ensemble_predictions/
+
+# Ignore large model predictions, caches, and arrays
+*.npy
+*.npz
+*.nii.gz
+*.pt
